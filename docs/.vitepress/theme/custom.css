@@ -1,0 +1,462 @@
+/**
+ * Bloodbound RPG — Nosgoth Dark Theme
+ * Inspired by the blood-soaked Gothic aesthetic of Legacy of Kain
+ */
+
+/* ===== COLOUR PALETTE ===== */
+:root {
+  /* Brand colours */
+  --bb-crimson:        #8B0000;
+  --bb-crimson-light:  #C41230;
+  --bb-crimson-glow:   #FF1A1A;
+  --bb-gold:           #C9A84C;
+  --bb-gold-light:     #E8C96A;
+  --bb-stone:          #2A2420;
+  --bb-stone-dark:     #1A1210;
+  --bb-stone-mid:      #3A2E28;
+  --bb-parchment:      #D4C4A0;
+  --bb-parchment-dim:  #A89870;
+  --bb-spectral:       #6A4E8A;
+  --bb-spectral-light: #9B72CF;
+  --bb-shadow:         #0D0A08;
+
+  /* VitePress overrides — dark theme */
+  --vp-c-brand-1:        var(--bb-crimson-light);
+  --vp-c-brand-2:        var(--bb-crimson);
+  --vp-c-brand-3:        var(--bb-crimson-glow);
+  --vp-c-brand-soft:     rgba(139, 0, 0, 0.16);
+
+  /* Backgrounds */
+  --vp-c-bg:             #100C0A;
+  --vp-c-bg-soft:        #1A1210;
+  --vp-c-bg-mute:        #241A16;
+  --vp-c-bg-alt:         #0D0A08;
+
+  /* Borders */
+  --vp-c-border:         #3A2A20;
+  --vp-c-divider:        #2A1E18;
+  --vp-c-gutter:         #0D0A08;
+
+  /* Text */
+  --vp-c-text-1:         #D4C4A0;
+  --vp-c-text-2:         #A89870;
+  --vp-c-text-3:         #7A6A50;
+
+  /* Sidebar */
+  --vp-sidebar-bg-color: #0D0A08;
+
+  /* Nav */
+  --vp-nav-bg-color:     rgba(13, 10, 8, 0.95);
+
+  /* Code blocks */
+  --vp-code-block-bg:    #1A1210;
+  --vp-code-color:       #C9A84C;
+
+  /* Custom properties */
+  --bb-heading-font:   'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+  --bb-body-font:      Georgia, 'Times New Roman', Times, serif;
+  --bb-mono-font:      'Courier New', Courier, monospace;
+  --bb-border-ornament: 1px solid rgba(201, 168, 76, 0.25);
+}
+
+/* ===== TYPOGRAPHY ===== */
+
+body {
+  font-family: var(--bb-body-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--bb-heading-font) !important;
+  letter-spacing: 0.03em;
+}
+
+.VPDoc h1 {
+  font-size: 2.2rem;
+  color: var(--bb-gold) !important;
+  text-shadow: 0 0 18px rgba(139, 0, 0, 0.5);
+  border-bottom: var(--bb-border-ornament);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.VPDoc h2 {
+  font-size: 1.55rem;
+  color: var(--bb-parchment) !important;
+  border-bottom: var(--bb-border-ornament);
+  padding-bottom: 0.3rem;
+}
+
+.VPDoc h3 {
+  color: var(--bb-gold-light) !important;
+  font-size: 1.2rem;
+}
+
+.VPDoc h4 {
+  color: var(--bb-parchment-dim) !important;
+}
+
+/* ===== NAVIGATION ===== */
+
+.VPNav {
+  background: linear-gradient(180deg, #0D0A08 0%, rgba(13,10,8,0.95) 100%) !important;
+  border-bottom: 1px solid rgba(139, 0, 0, 0.35) !important;
+  backdrop-filter: blur(8px);
+}
+
+.VPNavBarTitle .title {
+  font-family: var(--bb-heading-font) !important;
+  font-size: 1.1rem !important;
+  color: var(--bb-gold) !important;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.VPNavBarMenuLink, .VPNavBarMenuGroup .button {
+  font-family: var(--bb-heading-font) !important;
+  color: var(--bb-parchment) !important;
+  letter-spacing: 0.04em;
+  transition: color 0.2s ease;
+}
+
+.VPNavBarMenuLink:hover, .VPNavBarMenuLink.active {
+  color: var(--bb-gold) !important;
+}
+
+/* ===== SIDEBAR ===== */
+
+.VPSidebar {
+  background-color: var(--bb-stone-dark) !important;
+  border-right: 1px solid rgba(139, 0, 0, 0.2) !important;
+}
+
+.VPSidebarItem .text {
+  font-family: var(--bb-heading-font) !important;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+}
+
+.VPSidebarItem.level-0 > .item > .text {
+  color: var(--bb-gold) !important;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.VPSidebarItem.is-active > .item > .link > .text {
+  color: var(--bb-crimson-light) !important;
+}
+
+.VPSidebarItem > .item > .link:hover > .text {
+  color: var(--bb-gold-light) !important;
+}
+
+/* ===== CONTENT AREA ===== */
+
+.VPDoc {
+  padding-top: 1.5rem;
+}
+
+.VPDoc .vp-doc p {
+  line-height: 1.85;
+  color: var(--bb-parchment);
+}
+
+.VPDoc .vp-doc li {
+  line-height: 1.8;
+  color: var(--bb-parchment);
+}
+
+/* Blockquotes — styled as Nosgoth lore inscriptions */
+.VPDoc .vp-doc blockquote {
+  border-left: 3px solid var(--bb-crimson);
+  background: rgba(139, 0, 0, 0.06);
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 0 4px 4px 0;
+  font-style: italic;
+  color: var(--bb-parchment-dim) !important;
+  position: relative;
+}
+
+.VPDoc .vp-doc blockquote::before {
+  content: '\275D';
+  position: absolute;
+  top: -0.3rem;
+  left: 0.75rem;
+  font-size: 2rem;
+  color: var(--bb-crimson);
+  opacity: 0.4;
+  font-style: normal;
+}
+
+.VPDoc .vp-doc blockquote p {
+  color: var(--bb-parchment-dim) !important;
+  margin: 0;
+}
+
+/* Tables */
+.VPDoc .vp-doc table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+.VPDoc .vp-doc table thead th {
+  background: rgba(139, 0, 0, 0.25);
+  color: var(--bb-gold) !important;
+  font-family: var(--bb-heading-font);
+  letter-spacing: 0.04em;
+  padding: 0.6rem 1rem;
+  border: 1px solid rgba(139, 0, 0, 0.35);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.VPDoc .vp-doc table tbody tr {
+  border-bottom: 1px solid rgba(201, 168, 76, 0.1);
+  transition: background 0.15s ease;
+}
+
+.VPDoc .vp-doc table tbody tr:hover {
+  background: rgba(201, 168, 76, 0.04);
+}
+
+.VPDoc .vp-doc table tbody td {
+  padding: 0.55rem 1rem;
+  border: 1px solid rgba(58, 42, 32, 0.6);
+  color: var(--bb-parchment);
+}
+
+/* Code */
+.VPDoc .vp-doc code {
+  font-family: var(--bb-mono-font);
+  background: rgba(26, 18, 16, 0.8);
+  color: var(--bb-gold-light);
+  border: 1px solid rgba(139, 0, 0, 0.2);
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+  font-size: 0.88em;
+}
+
+.VPDoc .vp-doc pre {
+  background: var(--bb-stone-dark) !important;
+  border: 1px solid rgba(139, 0, 0, 0.25);
+  border-radius: 6px;
+}
+
+/* Strong / Bold — emphasise in gold */
+.VPDoc .vp-doc strong {
+  color: var(--bb-gold-light);
+  font-weight: 700;
+}
+
+/* Horizontal rules — ornamental dividers */
+.VPDoc .vp-doc hr {
+  border: none;
+  border-top: 1px solid rgba(201, 168, 76, 0.2);
+  margin: 2rem 0;
+  position: relative;
+}
+
+.VPDoc .vp-doc hr::after {
+  content: '✦';
+  display: block;
+  text-align: center;
+  color: var(--bb-gold);
+  opacity: 0.4;
+  margin-top: -0.75rem;
+  font-size: 1rem;
+  background: var(--vp-c-bg);
+  width: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Links */
+.VPDoc .vp-doc a {
+  color: var(--bb-crimson-light);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(196, 18, 48, 0.3);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.VPDoc .vp-doc a:hover {
+  color: var(--bb-gold-light);
+  border-bottom-color: var(--bb-gold);
+}
+
+/* ===== CUSTOM CONTAINERS ===== */
+
+/* Tip => Lore Note */
+.VPDoc .vp-doc .tip {
+  --vp-custom-block-tip-border: var(--bb-gold);
+  --vp-custom-block-tip-text:   var(--bb-parchment);
+  --vp-custom-block-tip-bg:     rgba(201, 168, 76, 0.06);
+  --vp-custom-block-tip-code-bg: rgba(201, 168, 76, 0.1);
+}
+
+/* Warning => Corruption Warning */
+.VPDoc .vp-doc .warning {
+  --vp-custom-block-warning-border: var(--bb-crimson-light);
+  --vp-custom-block-warning-text:   var(--bb-parchment);
+  --vp-custom-block-warning-bg:     rgba(139, 0, 0, 0.08);
+}
+
+/* Info => Rules Note */
+.VPDoc .vp-doc .info {
+  --vp-custom-block-info-border: var(--bb-spectral);
+  --vp-custom-block-info-text:   var(--bb-parchment);
+  --vp-custom-block-info-bg:     rgba(106, 78, 138, 0.08);
+}
+
+/* ===== HOME PAGE ===== */
+
+.VPHero .name {
+  font-family: var(--bb-heading-font) !important;
+  background: linear-gradient(135deg, var(--bb-crimson-light) 0%, var(--bb-gold) 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  letter-spacing: 0.04em;
+}
+
+.VPHero .tagline {
+  font-family: var(--bb-heading-font) !important;
+  color: var(--bb-parchment-dim) !important;
+  font-style: italic;
+  font-size: 1.1rem !important;
+}
+
+.VPHero .actions .VPButton.brand {
+  background: var(--bb-crimson);
+  border-color: var(--bb-crimson-light);
+  color: var(--bb-parchment);
+  font-family: var(--bb-heading-font);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  transition: background 0.25s ease, box-shadow 0.25s ease;
+}
+
+.VPHero .actions .VPButton.brand:hover {
+  background: var(--bb-crimson-light);
+  box-shadow: 0 0 20px rgba(139, 0, 0, 0.6);
+}
+
+.VPHero .actions .VPButton.alt {
+  border-color: var(--bb-gold);
+  color: var(--bb-gold);
+  font-family: var(--bb-heading-font);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.VPHero .actions .VPButton.alt:hover {
+  background: rgba(201, 168, 76, 0.08);
+}
+
+/* Feature cards */
+.VPFeature {
+  background: var(--bb-stone-dark) !important;
+  border: 1px solid rgba(139, 0, 0, 0.2) !important;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.VPFeature:hover {
+  border-color: rgba(201, 168, 76, 0.35) !important;
+  box-shadow: 0 4px 24px rgba(139, 0, 0, 0.15);
+}
+
+.VPFeature .title {
+  font-family: var(--bb-heading-font) !important;
+  color: var(--bb-gold) !important;
+  letter-spacing: 0.03em;
+}
+
+.VPFeature .details {
+  font-family: var(--bb-body-font) !important;
+  color: var(--bb-parchment-dim) !important;
+  font-style: italic;
+}
+
+/* ===== FOOTER ===== */
+
+.VPFooter {
+  background: var(--bb-stone-dark) !important;
+  border-top: 1px solid rgba(139, 0, 0, 0.2) !important;
+}
+
+.VPFooter .message, .VPFooter .copyright {
+  font-family: var(--bb-heading-font) !important;
+  color: var(--bb-parchment-dim) !important;
+  font-size: 0.82rem;
+  font-style: italic;
+}
+
+/* ===== SEARCH ===== */
+
+.VPLocalSearchBox .search-input {
+  font-family: var(--bb-body-font) !important;
+  background: var(--bb-stone-dark) !important;
+  color: var(--bb-parchment) !important;
+  border-color: rgba(139, 0, 0, 0.35) !important;
+}
+
+/* ===== TABLE OF CONTENTS ===== */
+
+.VPDocAsideOutline .outline-link {
+  font-family: var(--bb-heading-font);
+  font-size: 0.82rem;
+  color: var(--bb-parchment-dim);
+  letter-spacing: 0.02em;
+}
+
+.VPDocAsideOutline .outline-link.active {
+  color: var(--bb-gold) !important;
+  border-left-color: var(--bb-crimson) !important;
+}
+
+/* ===== SCROLLBAR ===== */
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bb-shadow);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bb-crimson);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bb-crimson-light);
+}
+
+/* ===== BACK TO TOP / PREV-NEXT LINKS ===== */
+
+.VPDocFooter .prev-next .pager-link .title {
+  font-family: var(--bb-heading-font) !important;
+  color: var(--bb-gold) !important;
+}
+
+.VPDocFooter .prev-next .pager-link:hover .title {
+  color: var(--bb-crimson-light) !important;
+}
+
+/* ===== MOBILE ADJUSTMENTS ===== */
+
+@media (max-width: 768px) {
+  .VPDoc h1 {
+    font-size: 1.7rem;
+  }
+  .VPDoc h2 {
+    font-size: 1.3rem;
+  }
+}
