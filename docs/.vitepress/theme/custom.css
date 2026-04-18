@@ -157,6 +157,14 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 1.5rem;
 }
 
+.VPDoc .vp-doc {
+  padding-bottom: 45vh;
+}
+
+.VPDoc .vp-doc :where(h2, h3, h4, h5, h6) {
+  scroll-margin-top: calc(var(--vp-nav-height, 64px) + 30vh);
+}
+
 .VPDoc .vp-doc p {
   line-height: 1.85;
   color: var(--bb-parchment);
