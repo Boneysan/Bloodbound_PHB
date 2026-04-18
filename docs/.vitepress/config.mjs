@@ -181,7 +181,7 @@ export default defineConfig({
                 { text: 'Core Resolution', link: '/phb/12-glossary#_12-1-core-resolution' },
                 { text: 'Attributes & Resources', link: '/phb/12-glossary#_12-2-attributes-and-resources' },
                 { text: 'Combat', link: '/phb/12-glossary#_12-3-combat' },
-                { text: 'Spellcasting', link: '/phb/12-glossary#_12-2-7-spellcasting' },
+                { text: 'Spellcasting', link: '/phb/12-glossary#_12-7-spellcasting' },
               ]
             },
           ]
