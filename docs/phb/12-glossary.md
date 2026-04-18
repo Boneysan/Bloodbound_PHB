@@ -208,17 +208,20 @@ Applied on Critical Hits or Extra Successes unless an effect says otherwise. Dur
 | Status Effect | Duration | Description |
 | :--- | :--- | :--- |
 | **Staggered** | Until end of target's next turn | Cannot take Reactions. |
-| **Bleeding** | Usually 1d3 rounds; source may set a different duration | Takes damage at the start of each turn. Standard Bleeding deals 1 damage. Reapplying Bleeding adds duration unless the source says it creates separate applications or uses a custom damage value. |
+| **Bleeding** | 1d3 rounds; source may set a different duration | Takes damage at the start of each turn. Standard damage is 1; source may specify a higher value. Reapplying Bleeding extends the duration rather than creating a separate instance — if the new source has a higher damage value, that value replaces the current one. Bleeding ends when the duration expires, healing is received, or the encounter ends. |
 | **Prone** | Until half movement spent to stand | Melee attacks have Advantage; ranged attacks have Disadvantage. |
 | **Burning** | 1d3 rounds or until extinguished | Takes 1 fire damage at the start of each turn. |
 | **Slowed** | 1d3 rounds | Movement speed halved; cannot Dash. |
 | **Shocked** | 1 round | Disadvantage on next action. |
 | **Pushed** | Instant | Moved 5–10 feet in attacker's chosen direction. |
-| **Soul Drain** | Instant | Target loses 1 SE; attacker may gain 1. |
+| **Soul Drain** | Instant | Target loses 1 SE. |
 | **Blinded** | 1d3 rounds | Disadvantage on attacks and Observation-based checks. |
 | **Purged** | Instant | Removes one darkness, shadow, or corruption effect. |
 
 Unless a source explicitly states a different trigger, recurring effects resolve at the start of the affected creature's turn. This includes ongoing damage, Corruption gain, and repeating regeneration or healing.
+
+| Status Effect | Duration | Description |
+| :--- | :--- | :--- |
 | **Decay** | Until next rest | Cannot regain HP through non-magical means. |
 | **Corrupted** | Permanent | Target gains +1 Corruption Level. |
 | **Weakened** | 1d3 rounds | −1 die on all saves and resistance checks. |
@@ -234,9 +237,49 @@ These appear frequently in spells, perks, and monster abilities even when they a
 | **Frightened** | As listed by the source effect | The target cannot willingly move closer to the source of fear and has Disadvantage on attacks while the source is present. |
 | **Charmed** | As listed by the source effect | The target cannot willingly attack or target the charmer with hostile abilities. The charmer has Advantage on social checks against the target. |
 | **Dominated** | As listed by the source effect | The target is **Charmed**, treats the source as an ally, and follows the source's commands to the extent described by the effect. If the effect gives target priorities or command limits, that text overrides this default. |
-| **Paralyzed** | As listed by the source effect | The target cannot move, act, or take Reactions. |
+| **Paralyzed** | As listed by the source effect | The target cannot move, act, or take Reactions. The target's DV is treated as 0 — any attack that rolls 1+ success automatically scores a Critical Hit. The target automatically fails Blood and Fury saves. |
+| **Stunned** | 1 round unless source specifies otherwise | The target cannot take Actions, Bonus Actions, or Reactions, but can still move. Attacks against a Stunned target have Advantage. More severe than Staggered (Reactions only); less severe than Paralyzed (which also removes movement). |
+| **Incapacitated** | As listed by the source effect | The target cannot take Actions or Bonus Actions. Movement and Reactions are unaffected. |
 | **Confused** | As listed by the source effect | The target has Disadvantage on all rolls. If the source says the target misidentifies allies, acts randomly, or lashes out unpredictably, apply that rider as well. |
 | **Suppressed** | As listed by the source effect | A spell, enchantment, summoned creature, magic item property, or magical condition temporarily ceases to function. When suppression ends, it resumes if its own duration has not expired. |
+
+**Extended Combat Conditions**
+Situational conditions applied by specific abilities, spells, terrain, or environment.
+
+| Condition | Duration | Description |
+| :--- | :--- | :--- |
+| **Rooted** | As listed by the source effect | Cannot move from current space. Can still take Actions, Bonus Actions, and Reactions. Can attempt to break free as an Action (DR as listed by source; if unlisted, DR 2 Blood or Fury + Athletics). |
+| **Frozen** | As listed by the source effect | The target is **Restrained** (attacks against them have Advantage; they have Disadvantage on attacks and Evasion) and cannot take Actions, Bonus Actions, or Reactions. Cannot be voluntarily moved by any means while Frozen. |
+| **Shaken** | 1d3 rounds unless source specifies otherwise | −1 die on all rolls. Distinct from **Weakened** (which specifically penalizes saves and resistance checks). |
+| **Invisible** | As listed by the source effect | Cannot be seen by normal sight. Attacks against an Invisible target have Disadvantage; the Invisible creature's attacks have Advantage. Being Invisible ends automatically if the creature attacks, casts a spell that affects an enemy, or uses an ability that reveals its presence, unless the source says otherwise. |
+| **Hidden** | Until detected or the creature acts openly | The creature's exact location is unknown to one or more opponents. Distinct from Invisible: a Hidden creature can be located with a successful Observation check (contested by Stealth). Attacks against a Hidden target have Disadvantage; the Hidden creature's attacks have Advantage. Hidden ends when the creature attacks, is spotted, or enters plain sight. |
+| **Branded** | 1 hour unless source specifies otherwise | The target is marked with a visible sigil. Cannot Hide or become Invisible. Disadvantage on Stealth and Shadow-based checks. |
+| **Engulfed** | Until escape, release, or effect end | The target is **Restrained** and takes automatic damage from the engulfing creature at the start of each turn. Damage type and amount are specified by the source effect. Escape uses Blood or Fury + Athletics vs. the engulfing creature's DR. |
+| **Silenced** | As listed by the source effect | Cannot speak, cast spells with verbal components, or use abilities that require speech. |
+| **Deafened** | As listed by the source effect | Cannot hear. Automatically fails any check that requires hearing. Disadvantage on Focus-based checks that rely on sound. |
+| **Poisoned** | Until save succeeds or effect ends | Disadvantage on attack rolls and skill checks. At the end of each turn, the target may make a Blood save (DR as listed by source) to end the effect. |
+| **Diseased** | Until treated or effect ends | Disadvantage on all rolls. Effects and save DRs vary by disease source. Can be treated with medicine (DR as listed) or appropriate magic. |
+
+**Hazard States**
+Conditions caused by environmental or prolonged physical stress rather than direct combat effects.
+
+| Condition | Duration | Description |
+| :--- | :--- | :--- |
+| **Exhaustion** | Until removed by rest | −1 die on all rolls per stack. Stacks up to 3 (max −3 dice total). At 3 stacks the creature is also **Incapacitated** until a stack is removed. Each Long Rest removes 1 stack. Abilities or effects that cause Exhaustion specify how many stacks are applied. |
+| **Drowning / Suffocation** | Until breathing restored | Make a DR 3 Blood save at the start of each turn while unable to breathe. Failure = gain 1 Suffocation stack; success = no change. At 3 stacks, fall **Unconscious** (begin Death Saves). While Unconscious from suffocation, gain 1 stack automatically each turn (no save); at 6 total stacks, the creature dies. Healing restores HP and consciousness but does **not** clear Suffocation stacks — stacks only reset once the creature can breathe freely. |
+
+**Environmental Conditions**
+States applied to an area or zone that affect all creatures within or targeting into it.
+
+**Obscured**
+A zone where vision is impaired. Creatures within an Obscured area gain Advantage on Stealth checks. The degree determines how severely attackers are affected:
+
+| Degree | Examples | Effect on Creatures Inside | Effect on Attackers Targeting In |
+| :--- | :--- | :--- | :--- |
+| **Lightly Obscured** | Dim light, thin smoke, light fog, sparse foliage | Advantage on Stealth checks | Disadvantage on Observation checks; attack rolls unaffected |
+| **Heavily Obscured** | Thick smoke, magical darkness, dense fog, Spectral mist | Advantage on Stealth checks | Disadvantage on both attack rolls and Observation checks; creatures without blindsight or tremorsense treat all targets inside as **Hidden** |
+
+When an ability creates an Obscured area without specifying degree, treat it as Heavily Obscured.
 
 *(Ch. 0)*
 
