@@ -43,12 +43,24 @@ The Legacy of Kain: Bloodbound RPG uses a **D6-based success system**. This mech
 
 **Resolution:**
 
-| Successes | Outcome | Result |
-| --- | --- | --- |
-| 0 | **Failure** | The action fails; the GM may introduce a complication or consequence. |
-| 1 | **Marginal** | The action barely succeeds, often with a cost, caveat, or unforeseen complication. |
-| 2 | **Standard** | The action succeeds cleanly as intended. |
-| 3+ | **Exceptional** | An outstanding result. If this exceeds the DR/DV by 2+, it is a Critical Success or Critical Hit — see section 10.4.6. |
+The outcome of a roll is determined by how many successes you achieve compared to the target (the **Difficulty Rating** for checks/saves or the **Defense Value** for attacks).
+
+| Successes vs. Target | Outcome | Result |
+| :--- | :--- | :--- |
+| **Below Target** | **Failure** | The action fails; the GM may introduce a complication or consequence. |
+| **Meets Target** | **Marginal** | The action barely succeeds, often with a cost, caveat, or unforeseen complication. |
+| **+1 Above Target** | **Standard** | The action succeeds cleanly as intended. |
+| **+2 Above Target** | **Exceptional** | An outstanding result. This is a **Critical Success** or **Critical Hit** (see Section 10.4.6). |
+
+### 10.1.2 Rolling Zero Dice
+
+In some cases, your total dice pool (**Attribute + Skill**) may be zero.
+
+*   **Automatic Failure:** If your pool is 0, you automatically fail the action. You do not roll any dice.
+*   **Attempting the Action:** To attempt an action with a pool of 0, you must find a way to add dice to the pool. This can be done by:
+    *   **Combat Bonus:** Level 5+ characters add their Combat Bonus dice to attack rolls even if their Attribute + Skill is 0.
+    *   **Assistance:** An ally may use the **Help** action to grant you +1 die or Advantage.
+    *   **Pushing the Roll:** You may choose to **Push the roll** (see Section 10.4.5), which allows you to roll 1, 2, or 3 **Corruption Dice** even if your base pool is 0. If you do this, you still risk gaining Corruption, but you have a chance to succeed.
 
 ---
 
@@ -194,13 +206,13 @@ This section is a shorthand summary; Chapter 9: Combat is the canonical source f
 * An enemy moving within reach.
 * A spell being cast at the character.
 
-**Common Reactions:**
+**Common Activation Types:**
 
-* *Evasion reaction:* Shadow + Evasion → avoid an attack.
-* *Parry:* Fury + Weapon Mastery → reduce melee damage.
-* *Counter-Glyph:* Soul + Glyphcasting → negate magic.
-* *Opportunity Attack:* Strike fleeing/approaching foes.
-* *Spectral Shift:* Instantly phase (if trait/spell allows).
+*   **Action:** The primary task of your turn (Attack, Cast, Dash).
+*   **Bonus Action:** A swift secondary task granted by specific features. You get only one per turn.
+*   **Reaction:** A response to a trigger, usable once per round.
+*   **Movement:** An ability that replaces or modifies your standard movement. If an ability's activation is listed as "Movement," it consumes your movement for the turn unless otherwise specified.
+*   **Passive:** Always active; requires no action to use.
 
 **Reaction Roll Outcomes:**
 

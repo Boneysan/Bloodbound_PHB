@@ -100,14 +100,26 @@ Shadowmancer: Stealth specialist manipulating darkness and fear.
 
 Consult your GM for the full class list and specific perks.
 ## 1.5 Step 4: Assign Attributes
-Spend 10 points across six attributes. Characters begin with 0 in each attribute, may assign a maximum of 3 points to any one attribute before lineage bonuses, and still obey the absolute maximum of 5. Any lineage-granted attribute bonus is applied after allocation. Each attribute governs specific aspects of your character:
+Spend 10 points across six attributes. 
 
-Fury: Aggression and emotional force. Governs raw power, rage, and intimidation. Key for classes like Blood Knight or Dreadblade. Linked to skills like Weapon Mastery and Intimidation.
-Soul: Spiritual power and connection to the Spectral Realm. Crucial for spellcasters like Soul Reaver or Glyphwright. Influences Soul Energy and skills like Glyphcasting and Possession.
-Shadow: Stealth, evasion, and subtlety. Core for Shadowmancer or Dreadblade. Linked to Stealth, Evasion, and Thievery.
-Will: Mental resilience and discipline. Key for Glyphwright or Hylden Warlock. Used for resisting mental assaults and skills like Tactics and Insight.
-Focus: Mental acuity and precision. Important for perception and complex tasks. Linked to Observation, History, and Craft.
-Blood: Physical vitality and life essence. Core for Blood Knight or Sangromancer. Influences Blood Point reserves and blood magic.
+*   **Starting Baseline:** All attributes begin at 0. 
+*   **Initial Cap:** You may assign a maximum of 3 points to any one attribute at character creation (before lineage bonuses).
+*   **Absolute Maximum:** No attribute can exceed 5 during character creation or growth. 
+*   **Zero Attributes:** It is possible to leave an attribute at 0. If you do, you roll no dice for checks or saves tied to that attribute unless you have training in a relevant skill. If your total pool (**Attribute + Skill**) is 0, you automatically fail unless you **Push the roll** or receive assistance (see [Chapter 10: Dice System, Section 10.1.2](./10-dice-system.md#1012-rolling-zero-dice)).
+
+Each attribute governs specific aspects of your character:
+
+**Fury:** Aggression and emotional force. Governs raw power, rage, and intimidation. Key for classes like Blood Knight or Dreadblade. Linked to skills like Weapon Mastery and Intimidation.
+
+**Soul:** Spiritual power and connection to the Spectral Realm. Crucial for spellcasters like Soul Reaver or Glyphwright. Influences Soul Energy and skills like Glyphcasting and Possession.
+
+**Shadow:** Stealth, evasion, and subtlety. Core for Shadowmancer or Dreadblade. Linked to Stealth, Evasion, and Thievery.
+
+**Will:** Mental resilience and discipline. Key for Glyphwright or Hylden Warlock. Used for resisting mental assaults and skills like Tactics and Insight.
+
+**Focus:** Mental acuity and precision. Important for perception and complex tasks. Linked to Observation, History, and Craft.
+
+**Blood:** Physical vitality and life essence. Core for Blood Knight or Sangromancer. Influences Blood Point reserves and blood magic.
 
 ### 1.5.1 Calculating Starting Resource Pools
 
