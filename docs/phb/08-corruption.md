@@ -60,9 +60,9 @@ Corruption Dice are always `d6`s, but they should be visually distinct from norm
 2. Activating Corrupted Perks that call for Corruption Dice.
 3. Overcharging certain corrupted transformations or major dark powers.
 
-**Core Rule:**
-- Every `1` rolled on a Corruption Die adds `+1 Corruption`.
-- Every `5-6` rolled on a Corruption Die counts as an empowered surge only if the specific perk or feature says it does. Otherwise, `5-6` has no effect beyond not increasing Corruption.
+**Core Rules:**
+- **Successes:** Every `5-6` rolled on a Corruption Die adds `+1 success` ONLY when used to **Push** a roll. When used to **activate** a perk or ability, `5-6` has no effect beyond not increasing Corruption unless the specific perk or feature says otherwise.
+- **Failures:** Every `1` rolled on a Corruption Die adds `+1 Corruption Level`.
 
 ### Corrupted Perk Activation Costs
 
@@ -117,16 +117,17 @@ As Corruption deepens, it bleeds beyond mechanical bonuses into the character's 
 
 **Threshold Pressure:** At Abyss-Bound (Level 11+), the character must succeed on a `DR 2 Will` save at the start of each session or suffer `-1 die` on Concentration and Insight checks for that session, as the corruption erodes self-control.
 
-**Total Loss:** At Corruption Level 15 (Lost), the character becomes fully feral - an NPC monster under the GM's control. Consult the GM before reaching this state.
+**Total Loss:** At Corruption Level 15 (Lost), the character becomes an NPC monster under the GM's control. (See Chapter 5, §5.10).
 
 ## 8.6 Paths to Purification
 
 Corruption is not permanent. Characters willing to sacrifice time, resources, or pride may reduce their Corruption Level through the following methods:
 
-1. **Ritual of Cleansing** - Performed at a holy site using rare components (Pillar dust, untainted blood). Requires a `DR 3-4 Soul + Rituals` check. Success reduces Corruption by `1-2`; failure increases it by `1`.
+1. **Ritual of Cleansing** - Performed at a holy site using rare components (Pillar dust, untainted blood). Requires a `DR 3-4 Soul + Ritualism` check. Success reduces Corruption by `1-2`; failure increases it by `1`.
 2. **Act of Atonement** - A meaningful sacrifice or heroic act relevant to the character's corruption source (GM discretion). Reduces Corruption by `1-3` depending on the gravity of the act.
 3. **Purifier NPC** - Seeking an ancient Vampire elder or Warden of Balance who specializes in corruption removal. Requires fulfilling a service, debt, or sacrifice in exchange. Reduces Corruption by `2-4`.
 4. **Contemplation** - Extended downtime (weeks of meditation, isolation, or spiritual discipline). Requires a `DR 2-3 Will + Concentration` check. Reduces Corruption by `1` on success.
+5. **Ritual Spell Removal** - Specialized rituals (like *Ceremony of Sorrow*, Ch. 5 §5.10) can remove Corruption. These follow the DR and success rules listed in the spell's description.
 
 ### Long Rest Recovery Valve
 

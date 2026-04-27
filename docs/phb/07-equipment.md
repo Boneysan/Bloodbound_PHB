@@ -9,16 +9,18 @@ At a glance:
 	- 7.1.2 Weapon Tier Progression (Enhanced & Masterwork)
 	- 7.1.3 Multi-Class / Universal Weapons
 	- 7.1.4 Rare Weapons (GM Discretion)
-	- 7.1.5 Relic Weapons (Legendary or Unique)
+	- 7.1.5 Relic Weapons (Unique Lore Items)
 - 7.2 Damage Types Reference
 - 7.3 Armor of Nosgoth
 	- 7.3.1 Class-Specific Armor
 	- 7.3.2 Universal Armor
 	- 7.3.3 Rare Armor (GM Discretion)
-	- 7.3.4 Relic Armor (Legendary or Unique)
+	- 7.3.4 Relic Armor (Unique Lore Items)
 - 7.4 Lineage and Cultural Gear
+	- 7.4.4 Consumable Relics (SE and BP)
 - 7.5 Acquisition and Crafting
 - 7.6 Tactical Considerations
+- 7.7 Equipment Integrity (Flaws and Repairs)
 
 **Terminology Reminder:** Defense Value (DV) = number of successes needed to hit a target in combat. Armor = flat damage reduction applied after a hit lands. These are separate mechanics. All armor in this chapter uses **flat damage reduction** (Armor X) unless explicitly noted. See Chapter 0: Core Mechanics for full definitions.
 
@@ -30,8 +32,9 @@ At a glance:
 
 Weapons in Bloodbound deal fixed base damage on a successful hit, modified by weapon damage scaling and extra successes. Each weapon lists its **damage subtype** (which determines status effects on extra successes per Chapter 9), **handedness**, and **range category**.
 
-**Range Categories:** Melee (adjacent, 1 tile) | Reach (2 tiles) | Close (3–4 tiles) | Ranged (5–8 tiles) | Long Range (9–12+ tiles)
-### 7.1.1 Class-Specific Weapons (Standard Tier, Levels 1–7)
+**Range Categories:** Melee (adjacent, 1 tile) | Reach (2 tiles) | Close (3â€“4 tiles) | Ranged (5â€“8 tiles) | Long Range (9â€“12+ tiles)
+
+### 7.1.1 Class-Specific Weapons (Standard Tier, Levels 1â€“7)
 
 Each class has signature weapons reflecting their combat role and thematic identity. These are available at character creation or through early-game acquisition.
 
@@ -49,7 +52,7 @@ Piercing | One-handed | Melee
 
 **Nightblade Saber**
 Slashing | One-handed | Melee
-5 Physical (Slashing) damage. Ignores 1 armor. Attacks with this weapon produce no sound — ideal for stealth strikes.
+5 Physical (Slashing) damage. Ignores 1 armor. Attacks with this weapon produce no sound â€” ideal for stealth strikes.
 
 #### 7.1.1.2 Soul Reaver
 
@@ -65,7 +68,7 @@ Slashing | One-handed | Melee
 
 **Phantom Claws**
 Spectral | One-handed | Melee
-4 Spectral damage. Ignores Physical Armor. On hit, target suffers -1 die to their next roll.
+4 Spectral damage. Ignores Physical Armor. On hit, target suffers âˆ’1 die to their next roll.
 
 #### 7.1.1.3 Shadowmancer
 
@@ -81,7 +84,7 @@ Bludgeoning | Two-handed | Melee
 
 **Nightveil Lash**
 Slashing | One-handed | Reach (2 tiles)
-4 Physical (Slashing) damage. On hit, target suffers -1 die to their next attack roll.
+4 Physical (Slashing) damage. On hit, target suffers âˆ’1 die to their next attack roll.
 
 #### 7.1.1.4 Sangromancer
 
@@ -89,7 +92,7 @@ Sangromancers channel crimson power through their weapons, blending damage with 
 
 **Bloodstaff**
 Bludgeoning | Two-handed | Melee
-4 Entropic (Necrotic) damage. On a successful hit, choose: deal damage normally OR forgo damage and heal HP equal to half the weapon’s base damage (minimum 1).
+4 Entropic (Necrotic) damage. On a successful hit, choose: deal damage normally OR forgo damage and heal HP equal to half the weaponâ€™s base damage (minimum 1).
 
 **Veinbinder Rod**
 Bludgeoning | One-handed | Melee
@@ -125,7 +128,7 @@ Force | One-handed | Ranged (8 tiles)
 
 #### 7.1.1.6 Dreadblade
 
-Dreadblades wield precision instruments of death — fast, silent, and lethal from the shadows.
+Dreadblades wield precision instruments of death â€” fast, silent, and lethal from the shadows.
 
 **Assassin's Fang**
 Piercing | One-handed | Melee
@@ -133,7 +136,7 @@ Piercing | One-handed | Melee
 
 **Venom Kris**
 Piercing | One-handed | Melee
-4 Physical (Piercing) damage. On hit, target makes a DR 2 Blood save or suffers Weakened (-1 die to all rolls) for 1 round.
+4 Physical (Piercing) damage. On hit, target makes a DR 2 Blood save or suffers Weakened (âˆ’1 die to all rolls) for 1 round.
 
 **Phantom Edge**
 Slashing | One-handed | Melee
@@ -173,21 +176,21 @@ Piercing | One-handed | Melee
 
 **Prophet's Thorn**
 Entropic | One-handed | Ranged (8 tiles)
-3 Entropic (Void) damage. Prevents non-magical healing. On hit, the target suffers -1 die to the next save it makes against one of your spells before the end of your next turn.
+3 Entropic (Void) damage. Prevents non-magical healing. On hit, the target suffers âˆ’1 die to the next save it makes against one of your spells before the end of your next turn.
 
 ### 7.1.2 Weapon Tier Progression (Enhanced & Masterwork)
 
-As characters grow, they can acquire improved versions of their class weapons. Each tier adds cumulative bonuses on top of the base weapon's stats. **Weapon Damage Scaling** (§7.1 / Ch0) applies independently and stacks with tier bonuses.
+As characters grow, they can acquire improved versions of their class weapons. Each tier adds cumulative bonuses on top of the base weapon's stats. **Weapon Damage Scaling** (Â§7.1 / Ch0) applies independently and stacks with tier bonuses.
 
 | Tier | Availability | Bonus | Acquisition |
 |------|-------------|-------|-------------|
-| **Standard** | Levels 1–7 | Base stats as listed in §7.1.1 | Character creation or early purchase |
-| **Enhanced** | Levels 8–14 | +1 base damage, +1 trait bonus (e.g., standard Bleeding duration +1 round, bonus damage +1, etc.) | DR 3 Focus + Craft check; requires rare materials (GM determines) |
-| **Masterwork** | Levels 15–20 | +2 base damage (cumulative with Enhanced), gain an additional special property or upgrade an existing one | DR 4 Focus + Craft check; requires legendary materials + legendary location |
+| **Standard** | Levels 1â€“7 | Base stats as listed in Â§7.1.1 | Character creation or early purchase |
+| **Enhanced** | Levels 8â€“14 | +1 base damage, +1 trait bonus (e.g., standard Bleeding duration +1 round, bonus damage +1, etc.) | DR 3 Focus + Craft check; requires rare materials (GM determines) |
+| **Masterwork** | Levels 15â€“20 | +2 base damage (cumulative with Enhanced), gain an additional special property or upgrade an existing one | DR 4 Focus + Craft check; requires legendary materials + legendary location |
 
 > **Example:** A Blood Knight's *Scion Blade* (6 Slashing) becomes Enhanced (7 Slashing, standard Bleeding lasts +1 round) at tier 2, then Masterwork (8 Slashing, standard Bleeding lasts +1 round, and on crit the Bleeding damage increases to 2 at the start of each turn) at tier 3. With Weapon Damage Scaling at level 15, the Masterwork Scion Blade deals 8 + 3 = 11 base damage.
 
-Universal, Rare, and Relic weapons do **not** have tier progressions — they are balanced as-is.
+Universal, Rare, and Relic weapons do **not** have tier progressions â€” they are balanced as-is.
 
 ### 7.1.3 Multi-Class / Universal Weapons
 
@@ -203,7 +206,7 @@ Slashing | Two-handed | Melee
 
 **Throwing Dagger**
 Piercing | One-handed | Ranged (8 tiles)
-3 Physical (Piercing) damage. Thrown. On hit, target suffers -1 die to their next Stealth or Evasion check. For Dreadblade, Shadowmancer, Blood Knight.
+3 Physical (Piercing) damage. Thrown. On hit, target suffers âˆ’1 die to their next Stealth or Evasion check. For Dreadblade, Shadowmancer, Blood Knight.
 
 **Repeater Crossbow**
 Piercing | Two-handed | Long Range (12 tiles)
@@ -211,7 +214,7 @@ Piercing | Two-handed | Long Range (12 tiles)
 
 **Nosgothian Cleaver**
 Slashing | Two-handed | Melee
-6 Physical (Slashing) damage. Brutal: -1 die to your attack roll, but ignores 2 points of armor. For Blood Knight, Hylden Warlock, Dreadblade.
+6 Physical (Slashing) damage. Brutal: âˆ’1 die to your attack roll, but ignores 2 points of armor. For Blood Knight, Hylden Warlock, Dreadblade.
 
 **Steel Javelin**
 Piercing | One-handed | Close (4 tiles)
@@ -227,7 +230,7 @@ Spectral | One-handed | Ranged (8 tiles)
 
 **Twin Knives**
 Piercing | One-handed (pair) | Melee
-3 Physical (Piercing) damage per knife. May strike twice as one action against the same target using a single attack roll. Weapon Damage Scaling applies once to the total, not per knife (e.g., at level 5: 3+3+1 = 7 total). For Dreadblade, Shadowmancer, Blood Knight.
+3 Physical (Piercing) damage per knife. May strike twice as one action against the same target using a single attack roll. Weapon Damage Scaling and Extra Success bonuses apply once to the total damage dealt by the pair, not per individual knife (e.g., at level 5: 3+3+1 = 7 total). For Dreadblade, Shadowmancer, Blood Knight.
 
 ### 7.1.4 Rare Weapons (GM Discretion)
 
@@ -247,7 +250,7 @@ Spectral | One-handed | Melee
 
 **Dreadhammer of Threnos**
 Bludgeoning | Two-handed | Melee
-7 Physical (Bludgeoning) damage. On critical hit, target is knocked Prone and Staggered (cannot take Reactions) for 1 round. Wielder gains +1 Corruption each time this weapon scores a critical hit. For Blood Knight, Hylden Warlock — GM unlock only.
+7 Physical (Bludgeoning) damage. On critical hit, target is knocked Prone and Staggered (cannot take Reactions) for 1 round. Wielder gains +1 Corruption each time this weapon scores a critical hit. For Blood Knight, Hylden Warlock â€” GM unlock only.
 
 **Bloodwoven Whip**
 Slashing | One-handed | Close (3 tiles)
@@ -267,15 +270,15 @@ Entropic | Two-handed | Long Range (12 tiles)
 
 **Soulreaver Prototype**
 Spectral | One-handed | Melee
-5 Spectral damage. Ignores Physical Armor. Wielder gains +1 Corruption per hit. Requires attunement and a GM story trigger to acquire. For Soul Reaver, Hylden Warlock — GM story reward only.
+5 Spectral damage. Ignores Physical Armor. Wielder gains +1 Corruption per hit. Requires attunement and a GM story trigger to acquire. For Soul Reaver, Hylden Warlock â€” GM story reward only.
 
-### 7.1.5 Relic Weapons (Legendary or Unique)
+### 7.1.5 Relic Weapons (Unique Lore Items)
 
 Relic weapons are tied to Nosgoth's deepest lore and require epic story progression. GMs determine acquisition through trials, sacrifices, or ancient rituals.
 
 **Soulreaver Prime**
 Spectral | One-handed | Melee
-9 Spectral damage. Ignores Physical Armor. On killing a target, absorbs their soul — wielder gains +2 bonus damage on their next attack and regains 2 SE. Only for those chosen by the Pillars.
+9 Spectral damage. Ignores Physical Armor. On killing a target, absorbs their soul â€” wielder gains +2 bonus damage on their next attack and regains 2 SE. Only for those chosen by the Pillars.
 
 **Blade of Balance**
 Slashing | One-handed | Melee
@@ -299,11 +302,11 @@ Entropic | One-handed | Ranged (8 tiles)
 
 **Sanctified Claymore of Avernus**
 Slashing | Two-handed | Melee
-8 Radiant damage. Deals double damage to Undead and Spectral creatures. Allies within line of sight gain +1 die to Will saves. For Warden of Balance — story-gated.
+8 Radiant damage. Deals double damage to Undead and Spectral creatures. Allies within line of sight gain +1 die to Will saves. For Warden of Balance â€” story-gated.
 
 **Abyssal Fang**
 Piercing | One-handed | Melee
-6 Entropic (Corruption) damage. Prevents non-magical healing. On critical hit, target gains +1 permanent Corruption. If wielder has Corruption 6+, deals +2 bonus damage. For Hylden Warlock, Sangromancer — requires Corruption 3+.
+6 Entropic (Corruption) damage. Prevents non-magical healing. On critical hit, target gains +1 permanent Corruption. If wielder has Corruption 6+, deals +2 bonus damage. For Hylden Warlock, Sangromancer â€” requires Corruption 3+.
 
 ---
 
@@ -314,16 +317,16 @@ All weapons deal one of the six canonical damage categories. [Chapter 12: Glossa
 ### Notes on Subtypes Used in This Chapter
 
 - **Void** is an Entropic subtype. It follows standard Entropic rules (normal armor, prevents non-magical healing). Void weapons may additionally impose Disadvantage or dimensional displacement effects as described per weapon.
-- **Spectral Fire** is a Radiant subtype. It follows Radiant rules (normal armor, ×2 vs Undead/Spectral). It does NOT ignore armor the way Spectral damage does.
+- **Spectral Fire** is a Radiant subtype. It follows Radiant rules (normal armor, Ã—2 vs Undead/Spectral). It does NOT ignore armor the way Spectral damage does.
 - **Corruption** is an Entropic subtype. On critical hits, Corruption-type weapons may increase the target's Corruption score.
-- **Physical subtypes** determine which status effects apply: Bludgeoning ? Staggered/Prone, Piercing ? usually standard Bleeding (and ignores 1 Armor naturally), Slashing ? usually standard Bleeding.
+- **Physical subtypes** determine which status effects apply: Bludgeoning â†’ Staggered/Prone, Piercing â†’ usually standard Bleeding (and ignores 1 Armor naturally), Slashing â†’ usually standard Bleeding.
 - Weapons that do not list a damage type explicitly deal **Physical** damage of the most appropriate subtype.
 
 ---
 
 ## 7.3 Armor of Nosgoth
 
-Armor reduces incoming damage by a flat amount (listed as **Armor X**) and may grant additional traits that enhance class abilities or survivability. All armor in this chapter uses **flat damage reduction** — it does not increase DV unless explicitly stated.
+Armor reduces incoming damage by a flat amount (listed as **Armor X**) and may grant additional traits that enhance class abilities or survivability. All armor in this chapter uses **flat damage reduction** â€” it does not increase DV unless explicitly stated.
 
 ### 7.3.1 Class-Specific Armor
 
@@ -331,81 +334,81 @@ Armor reduces incoming damage by a flat amount (listed as **Armor X**) and may g
 
 Blood Knight armor enhances their predatory resilience and rewards aggression.
 
-**Bloodsteel Cuirass** — Armor 2. On melee critical hit, regain 1 HP.
-**Nightshade Cloak** — Armor 1. +1 die to Stealth checks. Gain Resistance to Entropic damage.
-**Fleshwoven Mail** — Armor 2. Regenerate 1 HP at start of turn if standing in blood or adjacent to a Bleeding target.
-**Graveskin Harness** — Armor 1. +1 die to saves against Elemental (Fire) and Radiant effects.
-**Ebonwing Shroud** — Armor 2. Once per scene, gain flight (move up to speed in any direction) for 1 turn.
+**Bloodsteel Cuirass** â€” Armor 2. On melee critical hit, regain 1 HP.
+**Nightshade Cloak** â€” Armor 1. +1 die to Stealth checks. Gain Resistance to Entropic damage.
+**Fleshwoven Mail** â€” Armor 2. Regenerate 1 HP at start of turn if standing in blood or adjacent to a Bleeding target.
+**Graveskin Harness** â€” Armor 1. +1 die to saves against Elemental (Fire) and Radiant effects.
+**Ebonwing Shroud** â€” Armor 2. Once per scene, gain flight (move up to speed in any direction) for 1 turn.
 
 #### 7.3.1.2 Soul Reaver
 
 Soul Reaver armor enhances mobility and Spectral Realm interaction.
 
-**Shroud of Echoes** — Armor 1. Ignore difficult terrain. Move freely in the Spectral Realm without SE cost.
-**Gravewind Mantle** — Armor 2. In the first round of combat, attackers suffer -1 die to attack rolls against you.
-**Veilpiercer Shroud** — Armor 1. See simultaneously into both Spectral and Material Realms.
-**Soulrift Weave** — Armor 2. Once per scene, teleport up to 2 tiles as a free action.
-**Spiritthread Vestments** — Armor 1. Regain 1 SE after casting a spell in the Spectral Realm.
+**Shroud of Echoes** â€” Armor 1. Ignore difficult terrain. Move freely in the Spectral Realm without SE cost.
+**Gravewind Mantle** â€” Armor 2. In the first round of combat, attackers suffer âˆ’1 die to attack rolls against you.
+**Veilpiercer Shroud** â€” Armor 1. See simultaneously into both Spectral and Material Realms.
+**Soulrift Weave** â€” Armor 2. Once per scene, teleport up to 2 tiles as a free action.
+**Spiritthread Vestments** â€” Armor 1. Regain 1 SE after casting a spell in the Spectral Realm.
 
 #### 7.3.1.3 Shadowmancer
 
 Shadowmancer armor enhances stealth, illusions, and shadow manipulation.
 
-**Penumbra Wraps** — Armor 1. +1 die to Stealth and Deception checks while in dim light or darkness.
-**Mistweave Cloak** — Armor 2. Once per scene, become invisible until you attack or cast a spell.
-**Shadowskin Vest** — Armor 1. When you take damage, you may teleport 1 tile in any direction as a Reaction (once per round).
-**Duskmantle** — Armor 2. Enemies within 2 tiles suffer -1 die to Observation checks to detect you.
-**Voidthread Shroud** — Armor 1. When in magical darkness you created, gain Resistance to Physical damage.
+**Penumbra Wraps** â€” Armor 1. +1 die to Stealth and Deception checks while in dim light or darkness.
+**Mistweave Cloak** â€” Armor 2. Once per scene, become invisible until you attack or cast a spell.
+**Shadowskin Vest** â€” Armor 1. When you take damage, you may teleport 1 tile in any direction as a Reaction (once per round).
+**Duskmantle** â€” Armor 2. Enemies within 2 tiles suffer âˆ’1 die to Observation checks to detect you.
+**Voidthread Shroud** â€” Armor 1. When in magical darkness you created, gain Resistance to Physical damage.
 
 #### 7.3.1.4 Sangromancer
 
 Sangromancer armor amplifies blood magic and sustains the wielder through combat.
 
-**Veinsilk Robes** — Armor 1. After casting a Blood-type spell, heal 1 HP.
-**Sanguine Mantle** — Armor 2. +1 bonus damage to Blood-type spell damage once per round.
-**Arterywraps** — Armor 1. Once per scene, cast an Initiate-tier Blood spell as a Reaction.
-**Bloodflame Vestment** — Armor 2. When a melee attacker hits you, they take 1 Elemental (Fire) damage.
-**Crimson Channeling Coat** — Armor 1. On a critical success with a spell, regain 1 HP per spell tier (Initiate = 1, Adept = 2, etc.).
+**Veinsilk Robes** â€” Armor 1. After casting a Blood-type spell, heal 1 HP.
+**Sanguine Mantle** â€” Armor 2. +1 bonus damage to Blood-type spell damage once per round.
+**Arterywraps** â€” Armor 1. Once per scene, cast an Initiate-tier Blood spell as a Reaction.
+**Bloodflame Vestment** â€” Armor 2. When a melee attacker hits you, they take 1 Elemental (Fire) damage.
+**Crimson Channeling Coat** â€” Armor 1. On a critical success with a spell, regain 1 HP per spell tier (Initiate = 1, Adept = 2, etc.).
 
 #### 7.3.1.5 Glyphwright
 
 Glyphwright armor enhances structured magic and provides support to allies.
 
-**Sigil-Etched Robes** — Armor 1. +1 die to Glyphcasting checks.
-**Warding Mantle** — Armor 2. Allies within 2 tiles gain +1 die to saves against magical effects.
-**Runeguard Vest** — Armor 1. Once per scene, deflect one incoming magical attack entirely (Reaction).
-**Pillarstone Chain** — Armor 2. +1 die to Rituals checks. Glyph-based effects you create last 1 round longer.
-**Inscriber's Cowl** — Armor 1. When you dispel a magical effect, regain 1 SE.
+**Sigil-Etched Robes** â€” Armor 1. +1 die to Glyphcasting checks.
+**Warding Mantle** â€” Armor 2. Allies within 2 tiles gain +1 die to saves against magical effects.
+**Runeguard Vest** â€” Armor 1. Once per scene, deflect one incoming magical attack entirely (Reaction).
+**Pillarstone Chain** â€” Armor 2. +1 die to Rituals checks. Glyph-based effects you create last 1 round longer.
+**Inscriber's Cowl** â€” Armor 1. When you dispel a magical effect, regain 1 SE.
 
 #### 7.3.1.6 Dreadblade
 
 Dreadblade armor prioritizes speed, silence, and deadly precision from stealth.
 
-**Stalker's Leathers** — Armor 1. +1 die to Stealth checks. No armor-based penalties.
-**Nightfall Cloak** — Armor 2. Attacks from stealth deal +1 bonus damage.
-**Ghostwalk Wraps** — Armor 1. Your movement produces no sound. +1 die to Thievery checks.
-**Umbral Harness** — Armor 2. Once per scene, after killing a target, immediately enter stealth as a free action.
-**Deathweave Shroud** — Armor 1. After landing a critical hit, your next attack this scene has Advantage.
+**Stalker's Leathers** â€” Armor 1. +1 die to Stealth checks. No armor-based penalties.
+**Nightfall Cloak** â€” Armor 2. Attacks from stealth deal +1 bonus damage.
+**Ghostwalk Wraps** â€” Armor 1. Your movement produces no sound. +1 die to Thievery checks.
+**Umbral Harness** â€” Armor 2. Once per scene, after killing a target, immediately enter stealth as a free action.
+**Deathweave Shroud** â€” Armor 1. After landing a critical hit, your next attack this scene has Advantage.
 
 #### 7.3.1.7 Warden of Balance
 
 Warden armor channels divine authority, bolstering allies and punishing the undead.
 
-**Sarafan Plate** — Armor 3. Disadvantage on Stealth checks. Undead within 2 tiles suffer -1 die to Will saves.
-**Radiant Tabard** — Armor 2. Allies within 2 tiles gain +1 die to Will saves.
-**Blessed Chain Vestments** — Armor 2. Allies within 2 tiles gain +1 die to saves against spells.
-**Holy Valor Guard** — Armor 3. +1 die to saves against Entropic effects.
-**Lightforged Aegis** — Armor 2. Once per scene, completely deflect one source of incoming damage (Reaction).
+**Sarafan Plate** â€” Armor 3. Disadvantage on Stealth checks. Undead within 2 tiles suffer âˆ’1 die to Will saves.
+**Radiant Tabard** â€” Armor 2. Allies within 2 tiles gain +1 die to Will saves.
+**Blessed Chain Vestments** â€” Armor 2. Allies within 2 tiles gain +1 die to saves against spells.
+**Holy Valor Guard** â€” Armor 3. +1 die to saves against Entropic effects.
+**Lightforged Aegis** â€” Armor 2. Once per scene, completely deflect one source of incoming damage (Reaction).
 
 #### 7.3.1.8 Hylden Warlock
 
 Hylden Warlock armor channels entropic energy and thrives on corruption.
 
-**Ritual Vestments** — Armor 1. Once per scene, reduce the Corruption cost of one spell by 1 (minimum 1).
-**Woven Shadows** — Armor 2. +1 die to saves against mental effects (Frightened, Charm, etc.).
-**Inkbound Mantle** — Armor 1. +1 die to Glyphcasting checks.
-**Soulwrack Robes** — Armor 2. Spells that inflict Corruption on the target deal +1 bonus damage.
-**Chantwoven Cloak** — Armor 1. Once per scene, cast an Initiate-tier Entropic spell without SE cost.
+**Ritual Vestments** â€” Armor 1. Once per scene, reduce the Corruption cost of one spell by 1 (minimum 1).
+**Woven Shadows** â€” Armor 2. +1 die to saves against mental effects (Frightened, Charm, etc.).
+**Inkbound Mantle** â€” Armor 1. +1 die to Glyphcasting checks.
+**Soulwrack Robes** â€” Armor 2. Spells that inflict Corruption on the target deal +1 bonus damage.
+**Chantwoven Cloak** â€” Armor 1. Once per scene, cast an Initiate-tier Entropic spell without SE cost.
 
 ### 7.3.2 Universal Armor
 
@@ -414,7 +417,7 @@ These armors are available to multiple classes, offering broad utility.
 | Name | Armor | Traits |
 | :--- | :--- | :--- |
 | **Traveler's Leathers** | 1 | No penalties to movement or Stealth. |
-| **Nosgothian Chainmail** | 2 | Standard medium armor. -1 die to Stealth. |
+| **Nosgothian Chainmail** | 2 | Standard medium armor. âˆ’1 die to Stealth. |
 | **Abyss-Ward Cloak** | 1 | Resists 1 Corruption point per session (first Corruption gained is negated). |
 | **Wraithbone Shell** | 2 | Once per scene, gain Resistance to Spectral damage from one incoming attack. |
 | **Feral Hide Armor** | 2 | On melee critical hits, deal +1 bonus damage. |
@@ -423,23 +426,23 @@ These armors are available to multiple classes, offering broad utility.
 
 These powerful armor sets require special circumstances or GM approval. Typically acquired through quests, faction service, or rare materials.
 
-**Voidtouched Carapace** — Armor 3. Gain Resistance to Entropic damage. Wielder gains +1 Corruption per long rest while wearing it.
+**Voidtouched Carapace** â€” Armor 3. Gain Resistance to Entropic damage. Wielder gains +1 Corruption per long rest while wearing it.
 
-**Moonsilver Mail** — Armor 3. In moonlight or darkness, gain +1 die to Evasion checks. Gain Resistance to Physical damage from undead.
+**Moonsilver Mail** â€” Armor 3. In moonlight or darkness, gain +1 die to Evasion checks. Gain Resistance to Physical damage from undead.
 
-**Bonescale Aegis** — Armor 3. Once per scene, when reduced to 0 HP, immediately stabilize and regain 1 HP instead of falling unconscious.
+**Bonescale Aegis** â€” Armor 3. Once per scene, when reduced to 0 HP, immediately stabilize and regain 1 HP instead of falling unconscious.
 
-**Crimson-Lacquered Plate** — Armor 3. When hit by an attack that causes Bleeding, the Bleeding is negated and the wielder regains 1 BP instead.
+**Crimson-Lacquered Plate** â€” Armor 3. When hit by an attack that causes Bleeding, the Bleeding is negated and the wielder regains 1 BP instead.
 
-### 7.3.4 Relic Armor (Legendary or Unique)
+### 7.3.4 Relic Armor (Unique Lore Items)
 
-Relic armor is tied to Nosgoth's deepest lore and requires epic story progression. GMs determine acquisition.
+Relic armor is tied to Nosgoth's deepest lore and require epic story progression. GMs determine acquisition.
 
-**Mantle of the Pillars** — Armor 4. Allies within 3 tiles gain +1 die to all saves. Once per long rest, the wielder may end one ongoing magical effect on themselves or an ally as a free action. For those who restored a Pillar of Nosgoth.
+**Mantle of the Pillars** â€” Armor 4. Allies within 3 tiles gain +1 die to all saves. Once per long rest, the wielder may end one ongoing magical effect on themselves or an ally as a free action. For those who restored a Pillar of Nosgoth.
 
-**Kain's Ruined Cuirass** — Armor 4. Immune to Bleeding and Staggered. On critical hit taken, reflect 2 Physical damage back to the attacker. For campaign-defining story rewards only.
+**Kain's Ruined Cuirass** â€” Armor 4. Immune to Bleeding and Staggered. On critical hit taken, reflect 2 Physical damage back to the attacker. For campaign-defining story rewards only.
 
-**Spectral Shroud of Ariel** — Armor 3. Immune to Soul Drain. Once per scene, shift to the Spectral Realm as a free action without SE cost. Gain Resistance to Spectral damage. For Soul Reaver — story-gated.
+**Spectral Shroud of Ariel** â€” Armor 3. Immune to Soul Drain. Once per scene, shift to the Spectral Realm as a free action without SE cost. Gain Resistance to Spectral damage. For Soul Reaver â€” story-gated.
 
 ---
 
@@ -485,7 +488,7 @@ Rahabim lineage gear. Moisture-binding wrappings and salt oils carried by Rahabi
 Wraith lineage gear. A shard, token, or name-script bound to the Wraith's purpose. +1 die to checks to detect planar seams, track your Anchor's resonance, or resist banishment and spiritual displacement. Once per scene, while phased, pass through a barrier up to 2 feet thick or ignore one spectral hazard tied to memory, fear, or grief.
 
 **Counter-Frequency Diadem**
-Hylden-Blooded lineage gear. A whisper-dampening lattice of metal, glyph glass, and alien harmonics. +1 die to checks to read Hylden script, stabilize corrupted devices, or maintain focus amid the Whispers. Once per scene, when a Hylden relic, glyph trap, or entropic terrain effect would inflict 1 Corruption or impose Disadvantage, prevent the Corruption or reduce the penalty to -1 die.
+Hylden-Blooded lineage gear. A whisper-dampening lattice of metal, glyph glass, and alien harmonics. +1 die to checks to read Hylden script, stabilize corrupted devices, or maintain focus amid the Whispers. Once per scene, when a Hylden relic, glyph trap, or entropic terrain effect would inflict 1 Corruption or impose Disadvantage, prevent the Corruption or reduce the penalty to âˆ’1 die.
 
 **Gravebind Harness**
 Revenant lineage gear. Ash wrappings, oath-nails, corpse clasps, and grave-cord used to keep a revenant fixed to purpose. +1 die to checks to remain active through rot, cold, ruin, or sanctified discomfort. Once per scene, anchor yourself to the world: ignore forced movement, being knocked Prone, or the next environmental penalty caused by rubble, mud, or grave-soil until the start of your next turn.
@@ -496,7 +499,7 @@ Unbound lineage gear. A broken compass that points toward the least likely path.
 #### 7.4.2.3 Humans
 
 **Purity March Kit**
-Sarafan cultural gear. Blessed chalk, lamp oil, incense strips, and field-prayer seals. +1 die to checks to consecrate campsites, identify corruption, or resist unholy fear. Once per scene, sanctify a doorway, bridge, or 2-tile space until end of scene; the first undead, spectral, or corrupted creature to cross it suffers -1 die to its next roll.
+Sarafan cultural gear. Blessed chalk, lamp oil, incense strips, and field-prayer seals. +1 die to checks to consecrate campsites, identify corruption, or resist unholy fear. Once per scene, sanctify a doorway, bridge, or 2-tile space until end of scene; the first undead, spectral, or corrupted creature to cross it suffers âˆ’1 die to its next roll.
 
 **Thread-Singer Trail Kit**
 Nomad cultural gear. Knot-cords, water cloth, salvage hooks, and a memory-thread spool. +1 die to checks for navigation, foraging, salvage, or reading weather in the wilds. Once per scene, after 1 minute of scouting, the party ignores one stretch of difficult terrain or one minor travel hazard.
@@ -504,11 +507,13 @@ Nomad cultural gear. Knot-cords, water cloth, salvage hooks, and a memory-thread
 **Omen String**
 Oracle-Blooded cultural gear. A line of bone, glass, or old coin charms tuned to tremors in fate. +1 die to your first Insight or Observation check when entering a new site, meeting a stranger, or examining an omen. Once per scene, ask the GM one of these: What here is about to change? What choice brings the least immediate harm? What danger have we not noticed? The answer must be brief, cryptic, and true.
 
-### 7.4.3 GM Use
+### 7.4.4 Consumable Relics
 
-Treat lineage gear as cultural signatures rather than standard market inventory. A Rahabim's wraps, a Razielim harness, or a Sarafan purity kit should communicate origin, obligation, and survival practice as much as mechanics.
+Nosgothâ€™s ruins yield rare, single-use items that restore vital energies. These artifacts are precious and usually require an **Action** to use.
 
-If this section expands later, expand sideways rather than upward: alternate kits, faction variants, barter notes, and relic versions tied to story rewards are safer than stronger combat math.
+- **Soul Shard**: A crystalline fragment of solidified spirit energy. Using a Soul Shard restores **1d2 Soul Energy (SE)**.
+- **Vial of Ancient Vitae**: A preserved sample of untainted blood from the pre-corruption era. Using a Vial restores **1d3+1 Blood Points (BP)**.
+- **Alchemical Balm**: A salve that accelerates natural healing. Using a balm allows you to regain **1d6 HP** immediately, or automatically stabilizes a dying creature.
 
 ---
 
@@ -520,18 +525,23 @@ If this section expands later, expand sideways rather than upward: alternate kit
 | :--- | :--- | :--- |
 | **Standard** (Class/Universal) | Levels 1+ | Character creation, merchants, faction vendors. Subject to GM approval for some class-specific items. |
 | **Lineage / Cultural Gear** | Levels 1+ | Character creation with GM approval, faction trust, barter, salvage, inheritance, or narrative reward. |
-| **Enhanced** (Tier 2 Weapons) | Levels 8+ | Crafting (DR 3 Focus + Craft check), rare material components, faction commissions. |
-| **Masterwork** (Tier 3 Weapons) | Levels 15+ | Crafting (DR 4 Focus + Craft check), legendary material + legendary location (e.g., vampire bloodforge, ancient glyph forge). |
+| **Enhanced** (Legendary Materials) | Levels 8+ | Crafting (DR 3 Focus + Craft check), rare material components, faction commissions. |
+| **Masterwork** (Legendary Materials) | Levels 15+ | Crafting (DR 4 Focus + Craft check), legendary material + legendary location (e.g., vampire bloodforge, ancient glyph forge). |
 | **Rare** (Weapons/Armor) | GM Discretion | Quests, faction loyalty rewards, rare material hunts, defeating powerful foes. |
-| **Relic** (Weapons/Armor) | Major Story Events | Restoring a Pillar, completing epic questlines, being chosen by cosmic forces. GM determines paths. |
+| **Relic** (Unique Lore Items) | Major Story Events | Restoring a Pillar, completing epic questlines, being chosen by cosmic forces. GM determines paths. |
 
 ### Crafting Rules
 
 1. **Determine the Item:** Choose a weapon or armor from the available tier.
 2. **Gather Materials:** The GM specifies required components (e.g., blood essence for Sangromancer gear, Pillar dust for Warden weapons, spectral ore for Soul Reaver equipment).
-3. **Find a Forge/Workshop:** Some items require specific locations — a bloodforge for blood-infused weapons, a glyph forge for Glyphwright items, or the Spectral Realm for spectral gear.
-4. **Roll to Craft:** Focus + Craft vs. the DR listed for the tier. Success creates the item. Failure wastes one component (GM discretion). Critical success adds a minor bonus trait.
-5. **Upgrades:** Existing Standard weapons can be upgraded to Enhanced or Masterwork by repeating the crafting process with the weapon as a base, paying only the material cost for the new tier.
+3. **Find a Forge/Workshop:** Some items require specific locations â€” a bloodforge for blood-infused weapons, a glyph forge for Glyphwright items, or the Spectral Realm for spectral gear.
+4. **Roll to Craft:** Focus + Craft vs. the DR listed for the tier. Success creates the item. Failure wastes one component (GM discretion).
+5. **Critical Success (3+ successes beyond target):** A critical crafting success adds one **Bonus Trait** to the item, such as:
+	- **Reliable**: +1 die to a specific skill check (e.g., Weapon Mastery or Glyphcasting) while used.
+	- **Keen**: Ignores 1 additional point of physical Armor.
+	- **Balanced**: Gain Advantage on Initiative while this item is wielded.
+	- **Bound**: The item cannot be disarmed or stolen by mundane means.
+6. **Upgrades:** Existing Standard weapons can be upgraded to Enhanced or Masterwork by repeating the crafting process with the weapon as a base, paying only the material cost for the new tier.
 
 ---
 
@@ -539,26 +549,32 @@ If this section expands later, expand sideways rather than upward: alternate kit
 
 Weapons and armor in Bloodbound are designed for strategic depth. Class weapon + armor pairings create synergies that reward planning:
 
-- **Blood Knight:** Pair *Bloodfang Dagger* with *Fleshwoven Mail* — apply Bleeding, then heal while standing in the resulting carnage. Upgrade to the *Moonlit Fang* (Rare) for devastating nighttime ambushes.
-- **Soul Reaver:** Use *Spectral Talons* with *Soulrift Weave* — phase into the Spectral Realm for the 6-damage bonus, teleport to flank, and ignore all armor. Upgrade to *Soulbrand Blade* (Rare) for anti-healing pressure.
-- **Shadowmancer:** Combine *Shadow Fang* with *Penumbra Wraps* — the Stealth bonuses stack, enabling reliable ambushes. Upgrade with *Nightfall Cloak* armor for bonus stealth-attack damage.
-- **Sangromancer:** Use *Pulse Needle* to exploit Bleeding from safety, then shift to *Veinbinder Rod* or *Bloodwoven Whip* when enemies close. *Sanguine Mantle* and *Avernus Pulse-Scepter* support a healer-controller style that keeps allies standing while pressure builds.
-- **Glyphwright:** Pair *Surveyor's Prism* with *Sigil-Etched Robes* or *Warding Mantle* — reposition allies, then punish movement with glyphs. *Lattice Boltcaster* and *Architect's Compass* reward planned battlefield geometry instead of direct damage races.
-- **Dreadblade:** *Assassin's Fang* with *Nightfall Cloak* — stealth attacks deal +2 (weapon) +1 (armor) = +3 bonus damage. *Deathweave Shroud* enables chain kills with Advantage.
-- **Warden of Balance:** *Blessed Mace* with *Sarafan Plate* — Stagger undead on hit while the Plate imposes Will save penalties on nearby undead. *Holy Valor Guard* adds Entropic resistance for anti-corruption missions.
-- **Hylden Warlock:** *Prophet's Thorn* and *Whispering Prism* let you pressure casters from range before committing to melee. *Soulwrack Robes*, *Ritual Vestments*, and *Shard of the Unwheel* create a control build focused on failed saves, disrupted concentration, and denied advantages.
-
-### Lineage Gear in Play
-
-- **Lineage gear** should reinforce identity, not replace class loadouts. A *Tidekeeper Wraps* user still needs class weapons and armor; the wraps simply let Rahabim or their allies function in dry territory.
-- **Cultural kits** reward preparation and story ties. A *Purity March Kit*, *Thread-Singer Trail Kit*, or *Anchor Reliquary* can shape how a party approaches travel, sanctified ground, or planar hazards before combat begins.
-- **Narrative access matters.** These items work best when they come from faction trust, inheritance, salvage, or ritual exchange rather than ordinary shopping.
+- **Blood Knight:** Pair *Bloodfang Dagger* with *Fleshwoven Mail* â€” apply Bleeding, then heal while standing in the carnage.
+- **Soul Reaver:** Use *Spectral Talons* with *Soulrift Weave* â€” phase into the Spectral Realm for the 6-damage bonus, teleport to flank, and ignore all armor.
+- **Shadowmancer:** Combine *Shadow Fang* with *Penumbra Wraps* â€” the Stealth bonuses stack, enabling reliable ambushes.
+- **Sangromancer:** Use *Pulse Needle* to exploit Bleeding from safety, then shift to *Veinbinder Rod* or *Bloodwoven Whip* when enemies close.
+- **Glyphwright:** Pair *Surveyor's Prism* with *Sigil-Etched Robes* â€” reposition allies, then punish movement with glyphs.
+- **Dreadblade:** *Assassin's Fang* with *Nightfall Cloak* â€” stealth attacks deal +2 (weapon) +1 (armor) = +3 bonus damage.
+- **Warden of Balance:** *Blessed Mace* with *Sarafan Plate* â€” Stagger undead on hit while the Plate imposes Will save penalties on nearby undead.
+- **Hylden Warlock:** *Prophet's Thorn* and *Whispering Prism* let you pressure casters from range before committing to melee.
 
 ### General Tips
 
 - **Weapon Damage Scaling** (+1 at levels 5/10/15/20) applies automatically to ALL weapons. Plan your upgrade path around Enhanced (level 8+) and Masterwork (level 15+) tiers for maximum damage growth.
 - **Armor flat reduction** remains consistently valuable. An Armor 3 item saves 3 HP per hit at every level.
-- **Extra Successes** in combat can bypass armor (max equal to weapon base damage), inflict status effects, or deal bonus damage (+1 per extra success, max +3). High dice pools make extra successes the primary damage amplifier at high levels.
-- **DV Cap of 6** means stacking DV from multiple sources has diminishing returns at high Shadow/Will. Prioritize Armor value and class traits over DV bonuses.
+- **Extra Successes** in combat can bypass armor (max equal to weapon base damage), inflict status effects, or deal bonus damage (+1 per extra success, max +3).
+- **DV Cap of 6** means stacking DV from source has diminishing returns at high Shadow/Will. Prioritize Armor value and class traits over DV bonuses.
+
+---
+
+## 7.7 Equipment Integrity
+
+Nosgothâ€™s environments and certain effects (like the **Glyph of Entropy**) can damage equipment, imposing an **Equipment Flaw**.
+
+- **Equipment Flaw**: A weapon or armor is impaired until repaired.
+	- **Weapon Flaw**: âˆ’1 to the weaponâ€™s base damage.
+	- **Armor Flaw**: âˆ’1 to the armorâ€™s flat damage reduction (Armor X).
+- **Repairs**: Fixing an Equipment Flaw requires 10 minutes and a successful **DR 2 Focus + Craft** check, or use of the *Emergency Repair* Active Utility from the Craft skill (Chapter 6).
+- **Cumulative Flaws**: An item can suffer multiple flaws. If a weapon's base damage or an armor's reduction is reduced to 0 by flaws, the item is **Broken** and unusable until fully repaired.
 
 Players should consult their GM for availability, as some items (especially Rare and Relic tier) may alter campaign balance or tie into Nosgoth's lore. Whether forging a blade in a vampire's bloodforge or claiming a relic from a forgotten Pillar, the equipment you wield shapes your legend in Nosgoth.

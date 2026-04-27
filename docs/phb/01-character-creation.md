@@ -39,7 +39,7 @@ Vampire:
 
 Description: Immortal and cursed, vampires wield supernatural strength and blood-fueled powers.
 Bonuses: +1 to Weapon Mastery and +1 to Stealth skills.
-Unique Trait: Gain 1 Blood Point when near a dying creature.
+Unique Trait: Once per round, when a non-allied creature within 10 feet of you becomes **Bloodied**, drops to 0 HP, or dies, you gain 1 BP.
 Movement: Move through rubble without penalty; +1 to Stealth rolls in darkness or moonlight.
 Narrative Hook: Bound by the wheel of fate and the blood of the ancients.
 
@@ -48,7 +48,7 @@ Human:
 
 Description: Frail but defiant, humans are adaptable mortals fighting for survival.
 Bonuses: Choose any two skills to receive a +1 bonus.
-Unique Trait: Gain 1 extra perk at Levels 6, 12, and 18 (every 6 levels).
+Unique Trait: Gain 1 extra Universal Perk at Levels 6, 12, and 18.
 Movement: Ignore one terrain penalty per session; +1 to Stealth in crowds.
 Narrative Hook: The last flickers of resistance and redemption.
 
@@ -98,14 +98,17 @@ Blood Knight: Frontline warrior fueled by rage and vitality.
 Hylden Warlock: Uses corrupted entropy and forbidden glyphs.
 Shadowmancer: Stealth specialist manipulating darkness and fear.
 
-Consult your GM for the full class list and specific perks.
+If you choose a spellcasting class, see your class entry in Chapter 3 to determine how many starting spells you receive (typically 2–3). Consult your GM for the full class list and specific perks.
+
 ## 1.5 Step 4: Assign Attributes
 Spend 10 points across six attributes. 
 
 *   **Starting Baseline:** All attributes begin at 0. 
 *   **Initial Cap:** You may assign a maximum of 3 points to any one attribute at character creation (before lineage bonuses).
-*   **Absolute Maximum:** No attribute can exceed 5 during character creation or growth. 
+*   **Absolute Maximum:** The absolute maximum for any attribute is **5** (or **6** for characters with the Lineage Paragon feature). 
 *   **Zero Attributes:** It is possible to leave an attribute at 0. If you do, you roll no dice for checks or saves tied to that attribute unless you have training in a relevant skill. If your total pool (**Attribute + Skill**) is 0, you automatically fail unless you **Push the roll** or receive assistance (see [Chapter 10: Dice System, Section 10.1.2](./10-dice-system.md#1012-rolling-zero-dice)).
+
+For a full breakdown of successes and outcomes, see **Chapter 10: Dice System**.
 
 Each attribute governs specific aspects of your character:
 
@@ -123,8 +126,8 @@ Each attribute governs specific aspects of your character:
 
 ### 1.5.1 Calculating Starting Resource Pools
 
-Soul Energy (SE): For classes using Soul Energy, maximum SE = 3 + Will attribute + (Character Level ÷ 2, rounded up). See the Spellcasting in Nosgoth section for details.
-Blood Points (BP): For classes or lineages using Blood Points, maximum BP = 4 + Shadow attribute + (Character Level ÷ 2, rounded up). See the Spellcasting in Nosgoth section for details.
+Soul Energy (SE): For classes using Soul Energy, maximum SE = 3 + Will attribute + (Character Level ÷ 2, rounded up). See Chapter 5 for full resource details.
+Blood Points (BP): For classes or lineages using Blood Points, maximum BP = 4 + Shadow attribute + (Character Level ÷ 2, rounded up). See Chapter 5 for full resource details.
 
 ## 1.6 Step 5: Assign Skills
 Assign skill points (5–6, based on class) to skills like Glyphcasting, Weapon Mastery, Stealth, or Forbidden Knowledge. Each skill is tied to an attribute and contributes to dice pools.
