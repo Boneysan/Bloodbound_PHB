@@ -389,4 +389,4 @@ The following defines precisely what is and is not possible while fully manifest
 
 ---
 
-*Cross-Reference: Soul Reaver class abilities that interact with the Spectral Realm are in [Chapter 3, Section 3.3.2](./03-classes.md). Wraith Phasing is in [Chapter 2, Section 2.3](./02-lineages-and-race.md#23-wraiths). Corruption from failed crossings interacts with the Corruption system in [Chapter 8](./08_Corruption-Wounds-and-Recovery.md). Damage type definitions are in [Chapter 9: Combat](./09-combat.md) and [Chapter 5: Spellcasting and Magic](./05-spellcasting-and-magic.md).*
+*Cross-Reference: Soul Reaver class abilities that interact with the Spectral Realm are in [Chapter 3, Section 3.3.2](./03-classes.md). Wraith Phasing is in [Chapter 2, Section 2.3](./02-lineages-and-race.md#23-wraiths). Corruption from failed crossings interacts with the Corruption system in [Chapter 8](./08-corruption.md). Damage type definitions are in [Chapter 9: Combat](./09-combat.md) and [Chapter 5: Spellcasting and Magic](./05-spellcasting-and-magic.md).*
