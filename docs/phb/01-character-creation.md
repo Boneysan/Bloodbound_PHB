@@ -1,7 +1,3 @@
----
-title: Character Creation
-description: A step-by-step guide to building your character for Legacy of Kain — Bloodbound RPG.
----
 # Chapter 1: Character Creation
 
 At a glance:
@@ -48,16 +44,16 @@ Human:
 
 Description: Frail but defiant, humans are adaptable mortals fighting for survival.
 Bonuses: Choose any two skills to receive a +1 bonus.
-Unique Trait: Gain 1 extra Universal Perk at Levels 6, 12, and 18.
-Movement: Ignore one terrain penalty per session; +1 to Stealth in crowds.
+Unique Trait: Gain 1 extra Universal Perk at Level 1. Gain an additional Universal Perk at Levels 6, 12, and 18.
+Movement: Ignore one terrain penalty per long rest; +1 to Stealth in crowds.
 Narrative Hook: The last flickers of resistance and redemption.
 
 
 Wraith:
 
 Description: Souls untethered from flesh, wraiths walk the boundary of life and death, manipulating the Spectral Realm.
-Bonuses: +1 to Possession, +1 to Observation, and +1 to Will.
-Unique Trait: Wraith Phasing allows translucency, movement through thin barriers, Spectral damage ignoring physical armor, and resistance to non-magical physical damage.
+Bonuses: +1 to Possession, +1 to Observation.
+Unique Trait: Wraith Phasing allows translucency, movement through thin barriers, Spectral damage ignoring physical armor, resistance to non-magical physical damage, and +1 Will for DV while phased.
 Movement: Ignore terrain penalties; advantage on Stealth checks in the Spectral Realm.
 Narrative Hook: Forgotten by death, hunted by time.
 
@@ -66,7 +62,7 @@ Hylden-Blooded:
 
 Description: Exiled beings of entropy and dark invention, bearing ancient wrath.
 Bonuses: +1 to Glyphcasting and +1 to Forbidden Knowledge skills.
-Unique Trait: Cast one spell per long rest without cost, but take Corruption.
+Unique Trait: Cast one spell per long rest without cost, but take Corruption. If you have no spells, you may instead push a skill check without rolling Corruption Dice — the check automatically counts as having 1 extra success.
 Movement: Full speed across corrupted or glyph-infused terrain; surge 10 ft once per scene when taking a Corruption Die.
 Narrative Hook: Bearers of ancient wrath, seeking dominion or revenge.
 
@@ -84,8 +80,8 @@ Unbound:
 
 Description: Anomalies outside fate's pattern — possibly temporal echoes or Elder God shards. They resist prophecy and exhibit unnatural luck.
 Bonuses: +1 to any skill and +1 to Insight or Observation.
-Unique Trait: Untethered Soul — immune to one fate-altering magical effect per session; Probability Shift allows re-rolling 1–2 dice once per scene.
-Movement: Treat difficult terrain as normal for 1 round per rest; teleport 20 ft as Bonus Action once per session.
+Unique Trait: Untethered Soul — immune to one fate-altering magical effect per long rest; Probability Shift allows re-rolling 1–2 dice once per scene.
+Movement: Treat difficult terrain as normal for 1 round per rest; teleport 20 ft as Bonus Action once per long rest.
 Narrative Hook: Broken from destiny's tapestry, proof fate can be hacked.
 
 
@@ -106,7 +102,7 @@ Spend 10 points across six attributes.
 *   **Starting Baseline:** All attributes begin at 0. 
 *   **Initial Cap:** You may assign a maximum of 3 points to any one attribute at character creation (before lineage bonuses).
 *   **Absolute Maximum:** The absolute maximum for any attribute is **5** (or **6** for characters with the Lineage Paragon feature). 
-*   **Zero Attributes:** It is possible to leave an attribute at 0. If you do, you roll no dice for checks or saves tied to that attribute unless you have training in a relevant skill. If your total pool (**Attribute + Skill**) is 0, you automatically fail unless you **Push the roll** or receive assistance (see [Chapter 10: Dice System, Section 10.1.2](./10-dice-system.md#1012-rolling-zero-dice)).
+*   **Zero Attributes:** It is possible to leave an attribute at 0. If you do, you roll no dice for checks or saves tied to that attribute unless you have training in a relevant skill. If your total pool (**Attribute + Skill**) is 0, you automatically fail unless you **Push the roll** or receive assistance (see [Chapter 10: Dice System, Section 10.1.2](./10_Dice-System.md#1012-rolling-zero-dice)).
 
 For a full breakdown of successes and outcomes, see **Chapter 10: Dice System**.
 

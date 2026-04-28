@@ -1,7 +1,3 @@
----
-title: Combat
-description: Initiative, actions, damage types, special manoeuvres, and the full combat system of Nosgoth.
----
 # Chapter 9: Combat and Damage Types in Nosgoth
 In the cursed land of Nosgoth, combat is a brutal dance of blood and shadow, where steel clashes with sorcery, and the veil between Material and Spectral realms quivers. Whether wielding a reaver blade, weaving glyphs of decay, or phasing through realms to strike from the unseen, every action carries weight—and a price. This chapter combines the rules for combat with the diverse damage types that define Nosgoth’s conflicts, using the D6 dice success system to resolve attacks, defenses, and special maneuvers. Prepare to face the consequences of power in a world where survival demands sacrifice.
 
@@ -30,9 +26,9 @@ Combat in *Legacy of Kain: Bloodbound RPG* is structured into rounds, each repre
 
 - **1 Action**: Attack, cast a spell, use an ability, disengage, or perform another significant task.
 - **1 Bonus Action**: A swift secondary action granted *only* when a class ability, perk, lineage trait, or spell specifically states it requires a Bonus Action. A character may take only **one Bonus Action per turn**.
-- **1 Movement**: Move up to your Speed stat (in tiles, typically 5 feet per tile).
+- **1 Movement**: Move up to your Speed stat in feet (typically 25–30 feet).
 - **1 Reaction**: Respond to a trigger (e.g., an attack or enemy movement) once per round.
-- **Free Actions**: Minor activities that don't consume your primary Action, Bonus Action, or Reaction. Examples include dropping an item, speaking briefly (up to 10 words), or drawing a weapon as part of an attack action.
+- **Free Actions**: Minor activities that don't consume your primary Action, Bonus Action, or Reaction. Examples include dropping an item, speaking briefly (up to 10 words), or drawing a weapon as part of an attack action. Significant mechanical effects (like Whisperknife summoning) are limited to one Free Action per round.
 
 Combat is visceral yet strategic, encouraging players to leverage terrain, realm-shifting, and creative use of successes to outmaneuver foes. The Game Master (GM) ensures the tone remains dark and cinematic, adjudicating outcomes to reflect Nosgoth’s unforgiving nature.
 
@@ -166,7 +162,7 @@ Unless a source explicitly says otherwise, recurring effects resolve at the star
 - **Includes**: Ghostly wails, spectral blades, raw soul energy.
 - **Definition**: Attacks that target the living soul or spiritual essence directly.
 - **Effects**: Ignores all Physical Armor. Resisted by Will or Soul attributes.
-  - **Crosses Realms**: Spectral damage crosses the veil between the Material and Spectral realms freely. An attack dealing Spectral damage can target a creature in a different realm without penalty (see [Chapter 11, Section 11.5.3](./11-realms-terrain-arcane-power.md#1153-combat-across-the-veil)).
+  - **Crosses Realms**: Spectral damage crosses the veil between the Material and Spectral realms freely. An attack dealing Spectral damage can target a creature in a different realm without penalty (see [Chapter 11, Section 11.5.3](./11_Realms-Terrain-Arcane-Power.md#1153-combat-across-the-veil)).
   - Often drains resources (Soul Energy) or damages creatures in the Spectral Realm.
 - **Soul Reaver Blade**: A unique damage-dealing keyword. A **Soul Reaver Blade** (whether the artifact itself or a class-simulated version) always deals **Spectral** damage, ignores all Physical Armor, and bypasses Resistance to Spectral damage. On a Critical Hit, it consumes 1 SE from the target (if they have it) and transfers it to the wielder.
 
@@ -184,7 +180,7 @@ Unless a source explicitly says otherwise, recurring effects resolve at the star
 
 ### Damage Type Summary Table
 
-Use [Chapter 12: Glossary, Section 12.4](./12-glossary.md) as the canonical source for named condition definitions and durations. This chapter summarizes combat usage; the glossary governs final wording.
+Use [Chapter 12: Glossary, Section 12.4](./12_Glossary.md) as the canonical source for named condition definitions and durations. This chapter summarizes combat usage; the glossary governs final wording.
 
 | Damage Type      | Key Property                                  | Common Status Effect on Extra Success |
 | :--------------- | :-------------------------------------------- | :------------------------------------ |
@@ -237,6 +233,10 @@ When you have Disadvantage, roll your dice pool once. After the roll, you must *
 If you have both Advantage and Disadvantage from different sources, they cancel each other out, and you simply roll your dice pool once as normal.
 
 **Example**: Raziel attacks from a shadowfield (Advantage) but is Blinded by Radiant damage (Disadvantage). The effects cancel, and he rolls normally.
+
+**Stacking**
+
+Multiple sources of Advantage do not stack — having two sources of Advantage is the same as having one. The same applies to Disadvantage: two or more sources of Disadvantage still result in only one Disadvantage. Only Advantage and Disadvantage cancel each other, never amplify.
 
 ## 9.10 Special Actions
 
@@ -293,7 +293,7 @@ Nosgoth’s battlefields are as deadly as its warriors, with shifting realms and
 Many class abilities, perk costs, and recovery mechanics reference a **Short Rest** or **Long Rest**. These are defined as follows:
 
 **Short Rest**
-A period of approximately **1 hour** of rest during which characters may catch their breath, bind wounds, and recover minor resources. Characters must be free from active combat and immediate threat. Permitted activities include tending injuries, brief discussion, and light movement. A Short Rest restores any resource or ability marked "1/short rest."
+A period of approximately **15 minutes** of rest during which characters may catch their breath, bind wounds, and recover minor resources. Characters must be free from active combat and immediate threat. Permitted activities include tending injuries, brief discussion, and light movement. A Short Rest restores any resource or ability marked "1/short rest."
 
 **Long Rest**
 A period of approximately **8 hours** of genuine recuperation - sleep, meditation, or deep trance (for vampires and wraiths). Characters must be in a safe or relatively safe location. A Long Rest restores any resource or ability marked "1/long rest," fully restores HP unless a rule says otherwise, and may allow corruption recovery or purification as described in Chapter 8. Characters may take only one Long Rest per 24-hour period.
@@ -302,12 +302,25 @@ A period of approximately **8 hours** of genuine recuperation - sleep, meditatio
 
 Rules often reference a **Session** or an **Arc** for ability refreshes and timing.
 
-- **Session:** One period of real-world play, typically 3-5 hours. "Once per session" abilities refresh at the start of each new gathering.
+- **Session:** One period of real-world play, typically 3-5 hours. (See Ch. 9.13.5 for ability refresh rules using Short and Long Rests).
 - **Arc:** A major story segment representing approximately **5 levels** of progression (e.g., Arc 1 is Levels 1-5, Arc 2 is Levels 6-10). "Once per arc" abilities refresh when the character reaches a level milestone that begins a new arc (Levels 6, 11, and 16) or whenever the GM declares an arc has reached its narrative conclusion.
+
+## 9.15 Bosses and Legendary Creatures
+
+The most powerful enemies in Nosgoth — ancient vampire lords, Hylden architects, and spectral behemoths — do not play by the same rules as common footsoldiers. These entities are categorized as **Boss** or **Legendary** threats.
+
+### Legendary Actions
+Bosses and Legendary creatures often possess the ability to take actions outside their normal turn. These are called **Legendary Actions**. They typically occur at the end of a player character's turn and refresh at the start of the creature's own turn.
+
+### Legendary Resistance
+To represent their overwhelming will and supernatural resilience, these creatures often possess **Legendary Resistance**.
+- **Effect:** If the creature fails a save or check against a player's ability (such as a spell or condition), it may spend one use of Legendary Resistance to **automatically succeed** instead.
+- **Limits:** This typically refreshes after a Long Rest.
+- **Tactical Note:** Players should expect high-tier enemies to resist their first few attempts at "hard control" (like Stunned or Paralyzed). Wearing down a boss's Legendary Resistances is often a key tactical objective in a climactic fight.
 
 ---
 
-## 9.15 GM Guidance
+## 9.16 GM Guidance
 
 - **Balancing Encounters**: Set DV and HP to challenge but not overwhelm. A DV 3–5 foe suits most parties; DR 4+ tasks should be rare and climactic. Consider damage type resistances (e.g., undead immune to Entropic).
 - **Cinematic Descriptions**: Describe extra successes vividly (e.g., “Your Spectral blade erupts, charring their soul as they stagger”). Tailor to damage types for flavor.

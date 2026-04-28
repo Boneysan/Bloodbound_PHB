@@ -1,7 +1,3 @@
----
-title: Classes
-description: The eight playable classes of Bloodbound RPG — from Blood Knight to Hylden Warlock.
----
 # Chapter 3: Classes
 
 In the blood-soaked ruins of Nosgoth, where the Wheel of Fate grinds souls to dust, characters rise as avatars of power, defiance, or despair. The Classes of Legacy of Kain: Bloodbound RPG embody mythic archetypes, each tied to Nosgoth’s fractured history. From the relentless fury of Blood Knights to the entropy-wielding Hylden Warlocks, every class carries a legacy that shapes their abilities and narrative destiny.
@@ -44,6 +40,8 @@ Each class reflects a unique aspect of Nosgoth’s mythos. Players select a clas
 	*   **High Durability** (Sangromancer, Dreadblade): **+3 Max HP** at each milestone.
 	*   **Standard Durability** (Blood Knight, Shadowmancer, Glyphwright, Hylden Warlock): **+2 Max HP** at each milestone.
 	*   **Skirmisher Durability** (Soul Reaver, Warden of Balance): **+1 Max HP** at each milestone.
+
+	> **Note:** These tier names describe the size of the milestone bonus only — not total HP. Base HP-per-level also varies: **Blood Knight, Soul Reaver, and Warden of Balance gain +4 HP per level**; all other classes gain +3 HP per level. A class labeled "High Durability" gains the largest milestone bonuses but a lower per-level rate. Total HP at any given level depends on both factors combined; see your class entry for the exact formula.
 *   **Combat Bonus**: +1 die to attack rolls at Levels 5, 10, 15, and 20 (cumulative, max +4). Does not apply to skill checks.
 *   **Weapon Damage Scaling**: All weapons and damaging abilities gain +1 base damage at Levels 5, 10, 15, and 20 (cumulative, max +4). A base 3-damage sword deals 7 at Level 20.
 *   **Class Perks**: Gain one Class Perk every level (1–20). At **Levels 5, 10, 15, and 20**, choose between two options — each represents a different build path for that class.
@@ -100,7 +98,7 @@ Each class reflects a unique aspect of Nosgoth’s mythos. Players select a clas
 **"The material world is a cage. We are the key."**
 **Lore**: Bound to the Spectral Realm, Soul Reavers are warriors who have touched the abyss and returned changed. They are phasing skirmishers, capable of striking from the spirit world and weaving soul energy into devastating attacks. Often misunderstood as ghosts, they walk the line between life and death.
 **Role**: Phase Warrior / Hybrid Caster
-**Hybrid Affinity**: As a Soul Reaver, you possess **Hybrid Affinity**, allowing you to voluntarily shift between realms and interact with both more easily than Material or Spectral-only creatures. See [Chapter 11, Section 11.5.2](./11-realms-terrain-arcane-power.md#1152-voluntary-shift-hybrid-affinity).
+**Hybrid Affinity**: As a Soul Reaver, you possess **Hybrid Affinity**, allowing you to voluntarily shift between realms and interact with both more easily than Material or Spectral-only creatures. See [Chapter 11, Section 11.5.2](./11_Realms-Terrain-Arcane-Power.md#1152-voluntary-shift-hybrid-affinity).
 **Core Attributes**: Soul, Fury
 **Starting HP**: 10 + Soul (+4 per level; +1 Max HP at Levels 5, 10, 15, and 20)
 **Key Skills**: Weapon Mastery, Athletics, Insight, Ethereal Mastery, Stealth
@@ -141,7 +139,7 @@ Each class reflects a unique aspect of Nosgoth’s mythos. Players select a clas
 | 16 | **Death’s Door** | Choose one creature you can see within 30 feet. You learn its exact current HP, Resistances, and Immunities. This knowledge remains clear to you until the end of the scene. | Bonus Action |
 | 17 | **Ethereal Assassin** | Attack from Spectral Realm without fully shifting. *(Spectral only)* | Action, 2 SE |
 | 18 | **Soul Storm** | Signature Upgrade of the **Soul Storm** spell: Spectral Nova deals 12 Spectral Dmg + **Frightened** (DR 3 Will save) for 1 round. *(crosses realms)* | Action, 4 SE |
-| 19 | **Wraith Lord** | Permanent Resistance to Physical damage. | Passive |
+| 19 | **Undying Resonance** | Permanent Resistance to Physical damage. *If you are of Wraith lineage, your Phasing trait already provides this Resistance in combat; this perk instead increases your Max SE by 2.* | Passive |
 | 20 | **Angel of Death** | Transformation (1 min): Gain fly speed 60 feet, your attacks ignore Resistance but not Immunity, and your melee attacks deal +3 bonus Spectral damage. Enemies that can see you when the transformation begins or start their turn within 30 feet of you must succeed on a DR 3 Soul save or be **Frightened** until the transformation ends. | Action, 5 SE, 1/long rest |
 | 20 | *or* **Phantom Sovereign** | Ethereal Step, Spectral Strike, Ghost Parry, and Flicker no longer cost SE. | Passive |
 
@@ -182,7 +180,7 @@ Each class reflects a unique aspect of Nosgoth’s mythos. Players select a clas
 | 8 | **Nightmare Fuel** | Fear Toxin deals 3 Spectral damage at the start of each turn. | Passive |
 | 9 | **Shadow Form** | Become intangible, gaining Resistance to all damage except Radiant and Elemental (Fire). Requires Concentration; if Concentration breaks, the form ends immediately. | Action, 3 SE, Concentration up to 1 min |
 | 10 | **Master of Shadows** | Shadow Step range increases to 60ft. | Passive |
-| 10 | *or* **Nightmare Chorus** | Fear Toxin now affects all enemies within 5ft of the primary target; each makes a separate Will save. Will save Difficulty for your Fear effects increases by 1, including Terror Aura. | Passive |
+| 10 | *or* **Nightmare Chorus** | When you use Fear Toxin, you may spend 1 additional BP (total 2 BP) to have it affect all enemies within 5 feet of the primary target; each additional target makes a separate Will save. Will save Difficulty for your Fear effects increases by 1, including Terror Aura. | Passive |
 | 11 | **Living Darkness** | Darkness spell deals 2 Entropic damage at the start of each turn to enemies. | Passive |
 | 12 | **Doppelganger** | Create a combat-capable shadow clone of yourself (HP = Level + Soul, DV 2, deals 2 Entropic damage + Weapon Damage Scaling). Commanding the doppelganger requires a **Bonus Action** on your turn. | Action, 4 SE |
 | 13 | **Void Blade** | Melee attacks deal +1d8 Entropic damage. | Passive |
@@ -190,7 +188,7 @@ Each class reflects a unique aspect of Nosgoth’s mythos. Players select a clas
 | 15 | **Terror Aura** | Enemies that start their turn within 10 ft of you or enter that area for the first time on a turn must succeed on a DR 3 Will save or be Frightened until the start of their next turn. A creature that succeeds is immune to this aura until the end of the scene. | Passive |
 | 15 | *or* **Shadow Court** | Maintain up to 3 Doppelgangers simultaneously. One Bonus Action allows you to command all active Doppelgangers. Each additional or replacement Doppelganger costs 2 SE to summon. | Passive |
 | 16 | **Eclipse** | Create an area of magical darkness (300-foot radius) for up to 1 hour. Requires Concentration; if Concentration breaks, the darkness ends immediately. | Ritual, 10 SE, Concentration |
-| 17 | **Death from Below** | Pull target into Spectral Realm (DR 3 Soul save; killed on failure). Cannot target creatures with a Threat Value of 4 or higher, or any creature designated as a Boss or Legendary entity by the GM. | Action, 5 SE |
+| 17 | **Death from Below** | Pull target into Spectral Realm (DR 3 Soul save; killed on failure). Cannot target Elite, Boss, or Legendary creatures. | Action, 5 SE |
 | 18 | **Umbral Lord** | Regain 1 SE whenever you deal Entropic damage. | Passive |
 | 19 | **Eternal Night** | You operate as if in darkness even in sunlight. | Passive |
 | 20 | **Apotheosis of Shadow** | Transcend physical form — become an avatar of living darkness. Gain immunity to Physical damage, Blindsight 60 ft, and all shadow-based abilities cost 0 SE for 1 minute. Enemies that can see you must succeed on a DR 4 Will save or be Frightened. | Action, 1/long rest |
@@ -209,6 +207,9 @@ Each class reflects a unique aspect of Nosgoth’s mythos. Players select a clas
 > **Sidebar: Blood and the Spectral Realm**
 > Sangromancers are wholly Material-realm casters. Their spells require living blood and cannot function in the Spectral Realm. A Sangromancer who crosses the veil retains their BP pool but cannot access it until they return to the Material Realm.
 
+> **Sidebar: Single-Target Encounters**
+> The Sangromancer's control toolkit (Hemorrhage, Crimson Bind, Blood Puppet) is designed for multi-enemy encounters. Against a single tough enemy, favor Hemorrhage → Vital Leech (deal and heal) over full control lockdown — with one target, Crimson Bind's zone is redundant and Blood Puppet costs 2 BP for control that Hemorrhage alone can set up. Solo encounters are where the Sangromancer's damage-and-drain loop earns its keep.
+
 #### Spell Access
 - **Casting Model:** Known spells.
 - **Spell Access:** You may learn Blood spells freely from your class list and Ritual spells tied to blood rites, fleshcraft, corpse-work, and vitae transfer. **Note: All spells with the Blood tag or using the Blood attribute require a physical presence (Material only) unless you have a perk that says otherwise.**
@@ -225,7 +226,7 @@ Each class reflects a unique aspect of Nosgoth’s mythos. Players select a clas
 | Level | Perk Name | Effect | Action/Cost |
 | :--- | :--- | :--- | :--- |
 | 1 | **Blood Memory** | Regain one spell use or skill reroll. | Action, 1/long rest |
-| 2 | **Vital Leech** | Deal 3 Entropic Dmg, heal equal amount. | Action, 1 BP |
+| 2 | **Vital Leech** | Deal 3 Entropic Dmg, heal equal amount. | Bonus Action, 1 BP |
 | 3 | **Crimson Bind** | 10ft Zone roots enemies in blood. This is the Sangromancer Signature Upgrade of the **Crimson Bind** spell. | Action, 2 BP |
 | 4 | **Fleshcraft** | Craft a simple weapon from a corpse. | Ritual, 1 BP |
 | 5 | **Vein Strike** | +2 Damage against bleeding targets. | Passive |
@@ -352,6 +353,8 @@ Each class reflects a unique aspect of Nosgoth’s mythos. Players select a clas
 **Starting HP**: 11 + Will (+4 per level; +1 Max HP at Levels 5, 10, 15, and 20)
 **Key Skills**: Ritualism, Glyphcasting, Insight, Persuasion, Religion
 
+> **Play Note:** At Levels 1–9, the Warden plays as a reactive support class — you protect allies with Guardian's Edict, freeze individual threats with Time Stasis, and respond with Fate Align and Cycle Command. The class's proactive identity emerges at Level 10 (Eternal Balance: take a full extra turn) and Level 15 (Perfected Equilibrium: double damage against high-Corruption enemies). In Nosgoth campaigns where Corruption-tainted enemies are common, the Warden becomes the hardest-hitting character in exactly the encounters that matter most narratively.
+
 #### Core Abilities
 *   **Time Stasis** (Action, 3 SE): Choose one creature you can see within 30 feet or one unattended object you can touch. A creature must succeed on a DR 3 Will save or be unable to move, take actions, or take reactions until the end of its next turn. An object is frozen in place for 1 minute. The SE cost reduces to 2 at Level 12 when Stabilizing Presence is gained.
 *   **Guardian's Edict** (Bonus Action): Allies of your choice within 15 feet gain +1 DV and Temporary HP equal to your Will until the start of your next turn.
@@ -366,7 +369,7 @@ Each class reflects a unique aspect of Nosgoth’s mythos. Players select a clas
 | 4 | **Fate Align** | Allow an ally within 30 feet to reroll a failed die. | Reaction |
 | 5 | **Cycle Command** | When an ally you can see within 30 feet would be reduced to 0 HP, they instead drop to 1 HP. This cannot prevent death from an effect that explicitly bypasses death saves or revival. | Reaction, once per scene |
 | 5 | *or* **Judgment's Edge** | When an enemy within 30 feet damages an ally, you may place Fate's Condemnation on them until the end of the scene or until you hit them, whichever comes first. Fate's Condemnation empowers your next attack against that target: it deals bonus damage equal to your Will and imposes Disadvantage on their next save. | Reaction, once per scene |
-| 6 | **Echo of Fate** | Reroll your own failed roll. | Reaction, once per scene |
+| 6 | **Echo of Fate** | When you fail a roll, you may reroll it. You must use the new result. | No Action, once per scene |
 | 7 | **Zone of Judgment** | 15-foot radius zone centered on a point within 30 feet; enemies in the zone suffer -1 DV. | Action, 2 SE |
 | 8 | **Mark of Equilibrium** | Reduce damage taken by one target within 30 feet by 2 until the start of your next turn. | Bonus Action |
 | 9 | **Judgment Wheel** | 30-foot radius zone centered on a point within 60 feet. Random buffs/debuffs for 1 minute. | Action, 3 SE |
@@ -382,7 +385,7 @@ Each class reflects a unique aspect of Nosgoth’s mythos. Players select a clas
 | 17 | **Unyielding Adjudication** | Zone of Judgment prevents teleportation into or out of the area. | Passive |
 | 18 | **Anchored in Time** | Immune to **Slowed**, **Stunned**, or Time-based Stasis effects. | Passive |
 | 19 | **Destiny Architect** | Judgment Wheel results can be chosen by the Warden. | Passive |
-| 20 | **Nexus of Aeons** | Once per session, rewind all actions from the current round — damage, effects, and positioning reset to that round's start; all players act with foreknowledge of what transpired. Passively, you cannot be surprised and gain +1 die to all Initiative rolls. | Action, 1/session |
+| 20 | **Nexus of Aeons** | Once per long rest, rewind all actions from the current round — damage, effects, and positioning reset to that round's start; all players act with foreknowledge of what transpired. Passively, you cannot be surprised and gain +1 die to all Initiative rolls. | Action, 1/long rest |
 | 20 | *or* **Arbiter of Finality** | Once per long rest, declare Final Judgment on a target within 30 feet. If they kill an ally, they immediately take damage equal to that ally's max HP, up to a maximum of 40 damage (bypasses Armor). If this drops them to 0 HP, they cannot be revived. | Bonus Action, 1/long rest |
 
 ### 3.3.8 Hylden Warlock
@@ -413,7 +416,7 @@ Each class reflects a unique aspect of Nosgoth’s mythos. Players select a clas
 | :--- | :--- | :--- | :--- |
 | 1 | **Dark Insight** | Reroll a failed Corruption save. | Reaction |
 | 2 | **Hex Spark** | Dealing spell damage deals 1 Splash damage to one creature within 5 feet of the primary target. | Passive |
-| 3 | **Madness Surge** | Target within 30 feet is **Confused** (DR 3 Will save). This is the Hylden Warlock Signature Upgrade of the **Madness Surge** spell. | Action, 1 SE |
+| 3 | **Madness Surge** | Target within 30 feet is **Confused** (DR 3 Will save). This is the Hylden Warlock Signature Upgrade of the **Madness Surge** spell. | Bonus Action, 1 SE |
 | 4 | **Willbreaker** | Gain Advantage on Will checks against **Frightened** enemies. | Passive |
 | 5 | **Forbidden Truth** | When you cast a spell that costs SE, you may pay for it by gaining Corruption equal to half the SE cost of the spell (rounded up) instead of spending its SE cost. | No Action, once per scene |
 | 5 | *or* **Entropic Overload** | Your next spell or Void Shard this turn deals +3 Void damage and bypasses Armor and Resistance, but not Immunity. | No Action, 1/short rest |

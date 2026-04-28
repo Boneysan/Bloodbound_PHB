@@ -1,7 +1,3 @@
----
-title: Glossary
-description: Quick-reference for all core terms and mechanics in Legacy of Kain — Bloodbound RPG.
----
 # Chapter 12: Glossary
 
 A comprehensive quick-reference for all core terms and mechanics in Legacy of Kain: Bloodbound RPG. Entries are grouped by domain and listed alphabetically within each group. For full rules, see the referenced sections in the Player's Handbook or GM's Guide.
@@ -50,6 +46,9 @@ The number of successes an attacker must roll to hit a target. Derived from a ch
 **Extra Successes**
 Successes rolled beyond the required DR or DV. Often used to "buy" stunts, increase damage, or apply conditions. *(Ch. 10 §10.3)*
 
+**Long Rest**
+A period of approximately 8 hours of genuine recuperation. Restores HP and "1/long rest" abilities. *(Ch. 9 §9.13.5)*
+
 **Opposed Check**
 A roll where two characters compete directly (e.g., Attacker's successes vs. Defender's successes). *(Ch. 10 §10.1)*
 
@@ -57,7 +56,10 @@ A roll where two characters compete directly (e.g., Attacker's successes vs. Def
 A distinct narrative unit of time (e.g., a single battle, a social negotiation). Many abilities are limited to "once per scene." *(Ch. 5 §5.8)*
 
 **Session**
-One period of real-world play. "Once per session" abilities refresh at the start of each new gathering. *(Ch. 9 §9.14)*
+One period of real-world play. (See Ch. 9.13.5 for ability refresh rules using Short and Long Rests). *(Ch. 9 §9.14)*
+
+**Short Rest**
+A period of approximately 15 minutes of rest. Restores "1/short rest" abilities. *(Ch. 9 §9.13.5)*
 
 **Stunt**
 A tactical effect (like a shove, disarm, or bonus damage) triggered by spending extra successes on a successful check or attack. *(Ch. 9 §9.4)*
@@ -126,6 +128,16 @@ Applied on Critical Hits or Extra Successes unless an effect says otherwise. Dur
 | **Staggered** | 1 round unless source specifies otherwise | The target cannot take Reactions. Actions, Bonus Actions, and movement are unaffected. |
 | **Corrupted** | Permanent | Target gains +1 Corruption Level. |
 
+**Condition Rules**
+
+Three rules govern how conditions interact when multiple sources apply:
+
+1. **Same condition from multiple sources:** A condition applied a second time while already active refreshes its remaining duration to the new duration. The effect does not stack — a target that is Bleeding twice is still only Bleeding once. Exception: **Corrupted** always applies its full effect each time it is triggered, since each application is a discrete permanent gain.
+2. **Disadvantage does not stack:** A target suffering Disadvantage from two or more sources is still under only one Disadvantage. Additional Disadvantage sources beyond the first have no additional effect. (See §9.9 for Advantage/Disadvantage rules.)
+3. **Condition cap:** A target can have at most **5 distinct conditions** simultaneously (not counting Bloodied, which is a state rather than a condition). If a 6th distinct condition would be applied, it has no effect unless it is **Paralyzed**, **Stunned**, or **Dominated** — those three override and replace the least severe current condition (GM's judgment). This cap does not apply to Boss or Legendary creatures.
+
+---
+
 **Common Combat Conditions**
 
 **Bloodied**
@@ -184,6 +196,9 @@ A trait for Spectral creatures partially manifested in the Material Realm. They 
 
 **Legendary**
 The most powerful entities in Nosgoth (e.g., Kain, Raziel, The Elder God). They possess unique actions and cannot be permanently defeated except through specific story triggers. *(GM Guide §X)*
+
+**Legendary Resistance**
+A trait of high-tier Boss and Legendary creatures. If the creature fails a save or check, it can spend one use of Legendary Resistance to automatically succeed instead. *(Ch. 9 §9.15)*
 
 ---
 

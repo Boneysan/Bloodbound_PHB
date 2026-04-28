@@ -1,7 +1,3 @@
----
-title: Core Mechanics
-description: The foundational rules of Legacy of Kain — Bloodbound RPG. Attributes, dice pools, resource pools, and resolution systems.
----
 # Chapter 0: Core Mechanics
 
 ## Overview
@@ -145,7 +141,7 @@ A perfectly placed strike that deals devastating damage or imposes debilitating 
 ## Movement and Distance
 
 ### Movement Speed
-- **Standard:** 30 feet (6 squares) per turn
+- **Standard:** 30 feet per turn
 - Modified by lineage, perks, or conditions
 - **Difficult Terrain:** Costs double movement
 - **Dash Action:** Move up to your speed again

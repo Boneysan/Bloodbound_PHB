@@ -1,7 +1,3 @@
----
-title: Dice System
-description: A focused reference for the d6 success system powering all actions in Bloodbound RPG.
----
 # Chapter 10: Dice System
 
 ## At a glance

@@ -1,7 +1,3 @@
----
-title: Realms, Terrain & Arcane Power
-description: Realm affinity, terrain types, and energy foci — how the world of Nosgoth shapes every encounter.
----
 # Chapter 11: Realms, Terrain, and Arcane Power
 In the shattered world of Nosgoth, the veil between the Material and Spectral Realms is thin, and the land itself pulses with ancient magic. This chapter details how your character’s Realm Affinity shapes their interaction with these realms, how Terrain Types influence movement and combat, and how Energy Foci amplify magical power. Together, these systems govern how you navigate the ruins, battlefields, and cursed places of Nosgoth, whether you’re a blood-hungry Vampire, a spectral Wraith, or a Glyph-marked wanderer caught between worlds.
 
@@ -42,7 +38,7 @@ In Nosgoth, the ability to cross the veil is a powerful and dangerous gift.
 
 - **Bonus Action Shift:** Characters with the **Hybrid** affinity or specific perks (like *Wraith Phasing*) can use a **Bonus Action** to shift their manifestation between realms. 
 - **HP 0 Shift (Spectral entities only):** When a character with the **Spectral** or **Hybrid** affinity is reduced to 0 HP in the Material Realm, they do not fall **Unconscious**. Instead, they immediately shift into the Spectral Realm with 1 HP. While in this state, they cannot return to the Material Realm until they find a **Soul Portal**, **Arcane Nexus**, or use a powerful ritual.
-- **Material Return:** Returning to the Material Realm requires a **Soul Portal** or a specific Energy Focus. A character must be at or above **50% of their maximum HP** (the Return Threshold) to attempt the crossing. See [Section 11.5.2](./11-realms-terrain-arcane-power.md#1152-crossing-the-veil) for full crossing mechanics.
+- **Material Return:** Returning to the Material Realm requires a **Soul Portal** or a specific Energy Focus. A character must be at or above **50% of their maximum HP** (the Return Threshold) to attempt the crossing. See [Section 11.5.2](./11_Realms-Terrain-Arcane-Power.md#1152-crossing-the-veil) for full crossing mechanics.
 
 ---
 
@@ -55,7 +51,7 @@ Nosgoth’s landscapes are as deadly as its inhabitants. From blood-soaked battl
 | Terrain Type | Description & Effects |
 | :--- | :--- |
 | **Open Ground** | Standard terrain. No modifiers to movement or combat. Examples: clear roads, flat stone floors. |
-| **Difficult Terrain** | Costs 2 movement per tile. Examples: large rubble, snow, shallow water, broken stairs. |
+| **Difficult Terrain** | Costs double movement (2 feet for every 1 foot moved). Examples: large rubble, snow, shallow water, broken stairs. |
 | **Hazardous Terrain** | May deal damage or require a Difficulty Rating (**DR**) check to cross. Examples: fire, acid pools, spectral thorns (DR 2–4, depending on severity). |
 | **Elevated Terrain** | Higher ground grants +1 DR against ranged attacks and +1 success on certain **Observation** or combat rolls. Examples: hills, rooftops. |
 | **Cover** | Half cover grants +1 DR, full cover grants +2 DR against ranged and spell attacks. Examples: walls, barrels, dense foliage. |
@@ -99,7 +95,7 @@ Deep within the ruins of Avernus lies a circular chamber inscribed with shifting
 To harness a Foci’s power, a character must attune to it through a ritual process.
 
 #### Basic Method
-1. Be within range of the Foci (typically 1–2 tiles).
+1. Be within range of the Foci (typically within 10 ft).
 2. Spend one full round focusing uninterrupted.
 3. Make a **Will** + **Ritualism** or **Soul** + **Glyphcasting** skill check.
 
@@ -156,7 +152,7 @@ When designing encounters, consider:
 
 ---
 
-Cross-Reference: For how Foci affect spellcasting, see [Chapter 5: Spellcasting and Magic](./05-spellcasting-and-magic.md). For terrain in combat, see [Chapter 9: Combat](./09-combat.md).
+Cross-Reference: For how Foci affect spellcasting, see [Chapter 5: Spellcasting and Magic](./05_Spellcasting-and-Magic.md). For terrain in combat, see [Chapter 9: Combat](./09_Combat.md).
 
 ---
 
@@ -166,7 +162,7 @@ The Spectral Realm is not an afterlife. It is the decayed, lightless mirror of t
 
 These rules govern everything that happens once a character steps — or is thrown — across that boundary. They are designed to create consistent, table-ready answers to the core questions of Spectral play: How long can I survive here? How do I get back? Can I hit that? What can I do?
 
-> **Cross-References:** The basic Affinity types (Material, Spectral, Hybrid) are defined in [Section 11.1](#111-realm-affinity). The Wraith lineage's *Wraith Phasing* trait is defined in [Chapter 2, Section 2.3](./02-lineages-and-race.md#23-wraiths). The HP 0 shift rule for Spectral and Hybrid characters is in [Section 11.1](#111-realm-affinity). Spectral damage type interactions are in [Chapter 9: Combat](./09-combat.md) and [Chapter 5: Spellcasting and Magic](./05-spellcasting-and-magic.md).
+> **Cross-References:** The basic Affinity types (Material, Spectral, Hybrid) are defined in [Section 11.1](#111-realm-affinity). The Wraith lineage's *Wraith Phasing* trait is defined in [Chapter 2, Section 2.3](./02_Lineages-and-Race.md#23-wraiths). The HP 0 shift rule for Spectral and Hybrid characters is in [Section 11.1](#111-realm-affinity). Spectral damage type interactions are in [Chapter 9: Combat](./09_Combat.md) and [Chapter 5: Spellcasting and Magic](./05_Spellcasting-and-Magic.md).
 
 ---
 
@@ -389,4 +385,4 @@ The following defines precisely what is and is not possible while fully manifest
 
 ---
 
-*Cross-Reference: Soul Reaver class abilities that interact with the Spectral Realm are in [Chapter 3, Section 3.3.2](./03-classes.md). Wraith Phasing is in [Chapter 2, Section 2.3](./02-lineages-and-race.md#23-wraiths). Corruption from failed crossings interacts with the Corruption system in [Chapter 8](./08-corruption.md). Damage type definitions are in [Chapter 9: Combat](./09-combat.md) and [Chapter 5: Spellcasting and Magic](./05-spellcasting-and-magic.md).*
+*Cross-Reference: Soul Reaver class abilities that interact with the Spectral Realm are in [Chapter 3, Section 3.3.2](./03_Classes.md). Wraith Phasing is in [Chapter 2, Section 2.3](./02_Lineages-and-Race.md#23-wraiths). Corruption from failed crossings interacts with the Corruption system in [Chapter 8](./08_Corruption-Wounds-and-Recovery.md). Damage type definitions are in [Chapter 9: Combat](./09_Combat.md) and [Chapter 5: Spellcasting and Magic](./05_Spellcasting-and-Magic.md).*
