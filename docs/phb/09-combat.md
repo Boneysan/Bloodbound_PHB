@@ -162,7 +162,7 @@ Unless a source explicitly says otherwise, recurring effects resolve at the star
 - **Includes**: Ghostly wails, spectral blades, raw soul energy.
 - **Definition**: Attacks that target the living soul or spiritual essence directly.
 - **Effects**: Ignores all Physical Armor. Resisted by Will or Soul attributes.
-  - **Crosses Realms**: Spectral damage crosses the veil between the Material and Spectral realms freely. An attack dealing Spectral damage can target a creature in a different realm without penalty (see [Chapter 11, Section 11.5.3](./11_Realms-Terrain-Arcane-Power.md#1153-combat-across-the-veil)).
+  - **Crosses Realms**: Spectral damage crosses the veil between the Material and Spectral realms freely. An attack dealing Spectral damage can target a creature in a different realm without penalty (see [Chapter 11, Section 11.5.3](./11-realms-terrain-arcane-power.md#1153-combat-across-the-veil)).
   - Often drains resources (Soul Energy) or damages creatures in the Spectral Realm.
 - **Soul Reaver Blade**: A unique damage-dealing keyword. A **Soul Reaver Blade** (whether the artifact itself or a class-simulated version) always deals **Spectral** damage, ignores all Physical Armor, and bypasses Resistance to Spectral damage. On a Critical Hit, it consumes 1 SE from the target (if they have it) and transfers it to the wielder.
 
@@ -180,7 +180,7 @@ Unless a source explicitly says otherwise, recurring effects resolve at the star
 
 ### Damage Type Summary Table
 
-Use [Chapter 12: Glossary, Section 12.4](./12_Glossary.md) as the canonical source for named condition definitions and durations. This chapter summarizes combat usage; the glossary governs final wording.
+Use [Chapter 12: Glossary, Section 12.4](./12-glossary.md) as the canonical source for named condition definitions and durations. This chapter summarizes combat usage; the glossary governs final wording.
 
 | Damage Type      | Key Property                                  | Common Status Effect on Extra Success |
 | :--------------- | :-------------------------------------------- | :------------------------------------ |

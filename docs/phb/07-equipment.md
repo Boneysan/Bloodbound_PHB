@@ -308,7 +308,7 @@ Piercing | One-handed | Melee (5 ft)
 
 ## 7.2 Damage Types Reference
 
-All weapons deal one of the six canonical damage categories. [Chapter 12: Glossary, Section 12.4](./12_Glossary.md) is the source of truth for category rules, associated status effects, and named condition definitions; the notes below only clarify subtype usage in this equipment chapter.
+All weapons deal one of the six canonical damage categories. [Chapter 12: Glossary, Section 12.4](./12-glossary.md) is the source of truth for category rules, associated status effects, and named condition definitions; the notes below only clarify subtype usage in this equipment chapter.
 
 ### Notes on Subtypes Used in This Chapter
 

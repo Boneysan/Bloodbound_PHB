@@ -98,7 +98,7 @@ Each class reflects a unique aspect of Nosgoth’s mythos. Players select a clas
 **"The material world is a cage. We are the key."**
 **Lore**: Bound to the Spectral Realm, Soul Reavers are warriors who have touched the abyss and returned changed. They are phasing skirmishers, capable of striking from the spirit world and weaving soul energy into devastating attacks. Often misunderstood as ghosts, they walk the line between life and death.
 **Role**: Phase Warrior / Hybrid Caster
-**Hybrid Affinity**: As a Soul Reaver, you possess **Hybrid Affinity**, allowing you to voluntarily shift between realms and interact with both more easily than Material or Spectral-only creatures. See [Chapter 11, Section 11.5.2](./11_Realms-Terrain-Arcane-Power.md#1152-voluntary-shift-hybrid-affinity).
+**Hybrid Affinity**: As a Soul Reaver, you possess **Hybrid Affinity**, allowing you to voluntarily shift between realms and interact with both more easily than Material or Spectral-only creatures. See [Chapter 11, Section 11.5.2](./11-realms-terrain-arcane-power.md#1152-voluntary-shift-hybrid-affinity).
 **Core Attributes**: Soul, Fury
 **Starting HP**: 10 + Soul (+4 per level; +1 Max HP at Levels 5, 10, 15, and 20)
 **Key Skills**: Weapon Mastery, Athletics, Insight, Ethereal Mastery, Stealth

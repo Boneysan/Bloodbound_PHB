@@ -102,7 +102,7 @@ Spend 10 points across six attributes.
 *   **Starting Baseline:** All attributes begin at 0. 
 *   **Initial Cap:** You may assign a maximum of 3 points to any one attribute at character creation (before lineage bonuses).
 *   **Absolute Maximum:** The absolute maximum for any attribute is **5** (or **6** for characters with the Lineage Paragon feature). 
-*   **Zero Attributes:** It is possible to leave an attribute at 0. If you do, you roll no dice for checks or saves tied to that attribute unless you have training in a relevant skill. If your total pool (**Attribute + Skill**) is 0, you automatically fail unless you **Push the roll** or receive assistance (see [Chapter 10: Dice System, Section 10.1.2](./10_Dice-System.md#1012-rolling-zero-dice)).
+*   **Zero Attributes:** It is possible to leave an attribute at 0. If you do, you roll no dice for checks or saves tied to that attribute unless you have training in a relevant skill. If your total pool (**Attribute + Skill**) is 0, you automatically fail unless you **Push the roll** or receive assistance (see [Chapter 10: Dice System, Section 10.1.2](./10-dice-system.md#1012-rolling-zero-dice)).
 
 For a full breakdown of successes and outcomes, see **Chapter 10: Dice System**.
 

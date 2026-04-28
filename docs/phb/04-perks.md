@@ -54,7 +54,7 @@ Characters gain **One Universal Perk** at specific levels. Humans gain 1 extra U
 | Perk Name | Effect | Cost / Trigger |
 | :--- | :--- | :--- |
 | **Momentum Kill** | Gain **+10 feet movement** immediately after killing an enemy. | Passive (On Kill) |
-| **Phase Slip** | Ignore difficult terrain in the Spectral Realm. Additionally, once per scene, you may move through one solid object or barrier up to 5 feet thick during your movement; you must end in an unoccupied space. (See [Chapter 11, Section 11.1](./11_Realms-Terrain-Arcane-Power.md#111-realm-affinity)). | Passive |
+| **Phase Slip** | Ignore difficult terrain in the Spectral Realm. Additionally, once per scene, you may move through one solid object or barrier up to 5 feet thick during your movement; you must end in an unoccupied space. (See [Chapter 11, Section 11.1](./11-realms-terrain-arcane-power.md#111-realm-affinity)). | Passive |
 | **Forbidden Tap** | Add **+2 dice** to any roll. | **Gain 1 Corruption Level** |
 | **Void Walker** | Immune to corrupted terrain hazards (blighted ground, acid, etc). | Passive |
 | **Time Echo** | Reroll one Initiative roll. | 1/Long Rest |
