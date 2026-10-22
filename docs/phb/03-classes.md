@@ -218,7 +218,7 @@ Each class reflects a unique aspect of Nosgoth’s mythos. Players select a clas
 - **Class Features vs. Spells:** **Blood Puppet**, **Crimson Bind**, and **Hemodominate** are this class's Signature Upgrades of the generic spells of the same name. If you learn both versions, references to the class feature always use the class-feature text.
 
 #### Core Abilities
-*   **Hemorrhage** (Action, 1 BP): One target within 30 feet deals 2 damage at the start of each of its turns (Resist: Blood vs DR 2).
+*   **Hemorrhage** (Action, 1 BP): One target within 30 feet takes 2 damage at the start of each of its turns and is afflicted with standard **Bleeding** (Resist: Blood vs DR 2).
 *   **Blood Puppet** (Action, 2 BP): One target within 30 feet; control actions of a **Bleeding** target (Resist: Will vs DR 2). This is the Sangromancer Signature Upgrade of the **Blood Puppet** spell.
 *   **Resurgent Vitae** (Passive): While below 25% HP, regain 1 HP at the start of each turn.
 
